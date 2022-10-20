@@ -1,23 +1,28 @@
 /* html {
   border: dotted;
+  background-color: black;
 } */
 
 body {
-  margin: 5px;
-  /* border: dashed; */
+  margin: 2px;
   font-family: Roboto, Helvetica, Arial, sans-serif;
-  background-image: url("https://images.pexels.com/photos/1462011/pexels-photo-1462011.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-color: black; 
 }
 
 .App { 
   min-height: 100vh;
-  margin: 5px;
-  /* border: solid; */
-  /* background-image: url("https://images.pexels.com/photos/1462011/pexels-photo-1462011.jpeg?auto=compress&cs=tinysrgb&w=1600"); */
+  margin: 2px;
+  background-image: url("https://images.pexels.com/photos/1462011/pexels-photo-1462011.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-/* 
-.landing-parent-div {
-  
-} */
+
+/* ------------Landing Page----------------------- */
+
+.landing-header {
+  text-align: right;
+  padding: 10px;
+}
 
 
