@@ -10,13 +10,17 @@ import Home from './components/Home';
 function App() {
   return (
     <div className="App">
-      {/* <TopNavbar /> */}
+      {/* put the footer and navbar in the home component */}
       {/* <Footer /> */}
-      <Landing />
+      
  
       <Routes>
-        {/* <Route exact path='/' element={<Landing />} /> */}
+        {/* <TopNavbar /> */}
+        <Route exact path='/' element={<Landing />} />
+        <Route exact path='/home' element={<Home />} />
+
       </Routes>
+
     </div>
   );
 }

@@ -17,7 +17,7 @@ function TopNavbar() {
   return(
     <MDBNavbar expand='lg' light bgColor='light'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>Navbar</MDBNavbarBrand>
+        <MDBNavbarBrand href='/'>Navbar</MDBNavbarBrand>
         <MDBNavbarToggler
           type='button'
           aria-expanded='false'
@@ -29,20 +29,20 @@ function TopNavbar() {
         <MDBCollapse navbar show={showNav}>
           <MDBNavbarNav  right fullWidth={false} className='mb-2 mb-lg-0'>
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='#'>
+              <MDBNavbarLink active aria-current='page' href='/home'>
                 Home
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='#'>Features</MDBNavbarLink>
+              <MDBNavbarLink href='#'>Projects</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='#'>Pricing</MDBNavbarLink>
+              <MDBNavbarLink href='#'>About</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink disabled href='#' tabIndex={-1} aria-disabled='true'>
+              {/* <MDBNavbarLink disabled href='/' tabIndex={-1} aria-disabled='true'>
                 Disabled
-              </MDBNavbarLink>
+              </MDBNavbarLink> */}
             </MDBNavbarItem>
           </MDBNavbarNav>
         </MDBCollapse>

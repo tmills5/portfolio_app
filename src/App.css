@@ -6,7 +6,7 @@
 body {
   margin: 2px;
   font-family: Roboto, Helvetica, Arial, sans-serif;
-  background-color: black; 
+  background-color: rgb(9, 47, 11); 
   border: double;
   border-color:rgb(13, 71, 10);
   border-width: thick;
@@ -202,5 +202,5 @@ span:nth-child(18) {
 .home-parent-div {
   min-height: 100vh;
   margin: 2px;
-  color: red;
+  background-color: rgb(0, 0, 0);
 }
