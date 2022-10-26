@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import { Fade } from 'react-awesome-reveal';
 
 function Landing() {
 
@@ -8,17 +8,7 @@ function Landing() {
         <div className="landing-parent-div">
             <div className="landing-text-container">
                 <h1>
-                    <span>I'm&nbsp;</span>
-                    <span>Tyson.&nbsp;</span>
-                    <span>Former Firefighter.&nbsp;</span><br/>
-                    <span>Father.&nbsp;</span>
-                    <span>Husband.&nbsp;</span><br/>
-                    <span>Now,&nbsp;</span>
-                    <span>I'm&nbsp;</span>
-                    <span>a&nbsp;</span>
-                    <span>web&nbsp;</span>
-                    <span>developer.&nbsp;</span>
-                    <span><Link to="/home">Enter</Link></span>
+                    <Fade><Link to="/home">Enter</Link></Fade>
                 </h1>
             </div>
         </div>
