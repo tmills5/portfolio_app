@@ -10,6 +10,7 @@ import {
   MDBNavbarLink,
   MDBCollapse
 } from 'mdb-react-ui-kit';
+// import logo from '/Users/merletmills/Development/portfolio/portfolio_app/src/assets/images/logo.png';
 
 function TopNavbar() {
   const [showNav, setShowNav] = useState(false);
@@ -17,7 +18,13 @@ function TopNavbar() {
   return(
     <MDBNavbar expand='lg' light bgColor='light'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='/'>Navbar</MDBNavbarBrand>
+        <MDBNavbarBrand href='/'>LOGO HERE
+          {/* <img
+            src={logo}
+            alt="TMillsDev"
+            className='navbar-brand-logo'
+            /> */}
+          </MDBNavbarBrand>
         <MDBNavbarToggler
           type='button'
           aria-expanded='false'
@@ -34,10 +41,10 @@ function TopNavbar() {
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='#'>Projects</MDBNavbarLink>
+              <MDBNavbarLink href='/projects'>Projects</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='#'>About</MDBNavbarLink>
+              <MDBNavbarLink href='/about'>About</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
               {/* <MDBNavbarLink disabled href='/' tabIndex={-1} aria-disabled='true'>

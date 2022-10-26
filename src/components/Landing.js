@@ -7,9 +7,12 @@ function Landing() {
     return(
         <div className="landing-parent-div">
             <div className="landing-text-container">
-                <h1>
-                    <Fade><Link to="/home">Enter</Link></Fade>
-                </h1>
+            <Fade cascade damping={1.5}>
+                <h1>Hi, I'm Tyson.</h1>
+                <h3>Father.</h3>
+                <h3>Husband.</h3>
+                <h2>Developer.</h2>
+            </Fade>
             </div>
         </div>
     )

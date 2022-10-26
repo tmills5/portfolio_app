@@ -2,13 +2,18 @@
 body {
   margin: 2px;
   font-family: Roboto, Helvetica, Arial, sans-serif;
-  background-color: rgb(9, 47, 11); 
+  background-color: rgb(0, 0, 0); 
   border: double;
-  border-color:rgb(13, 71, 10);
+  border-color:rgb(19, 51, 9);
   border-width: thick;
 }
 
 .App { 
+  text-align: center;
   min-height: 100vh;
   margin: 5px;
+}
+
+.navbar-brand-logo {
+  max-height: 5rem;
 }

@@ -2,9 +2,11 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 
 import Landing from './components/Landing';
-// import TopNavbar from './components/TopNavbar';
+import TopNavbar from './components/TopNavbar';
 import Home from './components/Home';
-// import Footer from './components/Footer';
+import Projects from './components/Projects';
+import About from './components/About';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -13,14 +15,16 @@ function App() {
       {/* put the footer and navbar in the home component */}
       {/* <Footer /> */}
       
- 
+      <TopNavbar />
       <Routes>
-        {/* <TopNavbar /> */}
+        
         <Route exact path='/' element={<Landing />} />
         <Route exact path='/home' element={<Home />} />
+        <Route exact path='/projects' element={<Projects />} />
+        <Route exact path='/about' element={<About />} />
 
       </Routes>
-
+      <Footer />
     </div>
   );
 }
