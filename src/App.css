@@ -6,4 +6,7 @@ body {
   min-height: 100vh;
   margin: 5px;
   background-image: url('https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1600');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
