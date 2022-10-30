@@ -9,11 +9,12 @@ function Landing() {
             <div className="landing-text-container">
             <Fade cascade damping={1.5}>
                 <h1>Hi, I'm Tyson.</h1>
-                <h3>Father.</h3>
-                <h3>Husband.</h3>
                 <h2>Developer.</h2>
             </Fade>
             </div>
+            <section className='home-section'></section>
+            <section className='home-section'></section>
+            <section className='home-section'></section>
         </div>
     )
 };

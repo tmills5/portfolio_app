@@ -1,6 +1,9 @@
 function About() {
+  
   return (
-    <>ABOUT</>
+    <article>
+      ABOUT
+    </article>
   )
 }
 

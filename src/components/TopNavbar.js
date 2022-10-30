@@ -36,9 +36,9 @@ function TopNavbar() {
         <MDBCollapse navbar show={showNav}>
           <MDBNavbarNav  right fullWidth={false} className='mb-2 mb-lg-0'>
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='/home'>
+              {/* <MDBNavbarLink active aria-current='page' href='/home'>
                 Home
-              </MDBNavbarLink>
+              </MDBNavbarLink> */}
             </MDBNavbarItem>
             <MDBNavbarItem>
               <MDBNavbarLink href='/projects'>Projects</MDBNavbarLink>
