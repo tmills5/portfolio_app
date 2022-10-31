@@ -3,9 +3,9 @@ body {
   margin: 2px;
   font-family: Roboto, Helvetica, Arial, sans-serif;
   background-color: rgb(0, 0, 0); 
-  border: double;
-  border-color:rgb(19, 51, 9);
-  border-width: thick;
+  /* border: double; */
+  /* border-color:rgb(19, 51, 9);
+  border-width: thick; */
 }
 
 .App { 
@@ -40,7 +40,7 @@ body {
 }
 
 .home-section.c {
-  background-image: url("https://images.pexels.com/photos/38537/woodland-road-falling-leaf-natural-38537.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-image: url("https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?auto=compress&cs=tinysrgb&w=1600");
   background-repeat: no-repeat;
   background-size: cover;
 }
