@@ -13,15 +13,56 @@ body {
   min-height: 100vh;
   margin: 5px;
 }
+/* ----------------NAVBAR------------------ */
 
-.navbar-brand-logo {
+/* .navbar-brand-logo {
   max-height: 5rem;
-}
+} */
 
 .home-section {
   width:100%;
-  height: 30em;
+  height: 40em;
   border: double;
   border-color:rgb(19, 51, 9);
   border-width: thick;
+}
+
+.home-section.a {
+  background-image: url("https://images.pexels.com/photos/38537/woodland-road-falling-leaf-natural-38537.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-section.b {
+  background-image: url("https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-section.c {
+  background-image: url("https://images.pexels.com/photos/38537/woodland-road-falling-leaf-natural-38537.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed; /* Stay fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+/* ----------------FOOTER------------------- */
+
+#logo-footer {
+  height: 5rem;
 }

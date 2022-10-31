@@ -16,7 +16,7 @@ function TopNavbar() {
   const [showNav, setShowNav] = useState(false);
 
   return(
-    <MDBNavbar expand='lg' light bgColor='light'>
+    <MDBNavbar expand='lg' light bgColor='dark'>
       <MDBContainer fluid>
         <MDBNavbarBrand href='/'>LOGO HERE
           {/* <img
