@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Fade } from 'react-awesome-reveal';
+import { Fade, Zoom, Hinge, Roll, Slide } from 'react-awesome-reveal';
 
 function Landing() {
 
@@ -15,7 +15,11 @@ function Landing() {
             <section className='home-section a'></section>
             <section className='home-section b'></section>
             <section className='home-section c'></section>
-            <a href='/projects'><div className='center-text'>Tyson Mills</div></a>
+            <a href='/projects'>
+                <Fade duration='3000' className='center-text'>
+                    Tyson Mills
+                </Fade>
+            </a>
         </div>
     )
 };
