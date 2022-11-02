@@ -6,12 +6,14 @@ import TopNavbar from './components/TopNavbar';
 import Home from './components/Home';
 import Projects from './components/Projects';
 import About from './components/About';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 
 function App() {
   return (
+    //?  DRY up the rendering of header and footer
     <div className="App">
+      {/* not rendering the navbar on landing page */}
       {window.location.pathname !== '/' ? <TopNavbar /> : null}
 
       <Routes>
@@ -22,7 +24,9 @@ function App() {
         <Route exact path='/about' element={<About />} />
 
       </Routes>
-      {/* <Footer /> */}
+
+      {/* not rendering the footer on landing page */}
+      {window.location.pathname !== '/' ? <Footer /> : null}
     </div>
   );
 }
