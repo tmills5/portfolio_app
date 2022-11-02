@@ -16,13 +16,13 @@ function TopNavbar() {
   const [showNav, setShowNav] = useState(false);
 
   return(
-    <MDBNavbar expand='lg' light bgColor='white'>
+    <MDBNavbar expand='lg' light bgColor='black'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='/'>
+        <MDBNavbarBrand href='/' className='text-white'>
           <img
             src={simpleTreeLogo}
             alt="logo"
-            className='navbar-brand-logo bg-light rounded'
+            className='navbar-brand-logo bg-transparent'
             />
           </MDBNavbarBrand>
         <MDBNavbarToggler
@@ -31,10 +31,10 @@ function TopNavbar() {
           aria-label='Toggle navigation'
           onClick={() => setShowNav(!showNav)}
         >
-          <MDBIcon icon='bars' fas />
+          <MDBIcon icon='bars' fas style={{"color": "white"}}/>
         </MDBNavbarToggler>
         <MDBCollapse navbar show={showNav}>
-          <MDBNavbarNav  right fullWidth={false} className='mb-2 mb-lg-0'>
+          <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
             <MDBNavbarItem>
               {/* <MDBNavbarLink active aria-current='page' href='/home'>
                 Home
