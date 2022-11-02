@@ -2,9 +2,8 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 
 import Landing from './components/Landing';
-// import TopNavbar from './components/TopNavbar';
+import TopNavbar from './components/TopNavbar';
 import Home from './components/Home';
-//? might take home out 
 import Projects from './components/Projects';
 import About from './components/About';
 // import Footer from './components/Footer';
@@ -13,8 +12,8 @@ import About from './components/About';
 function App() {
   return (
     <div className="App">
-      
-      {/* <TopNavbar /> */}
+      {window.location.pathname !== '/' ? <TopNavbar /> : null}
+
       <Routes>
         
         <Route exact path='/' element={<Landing />} />

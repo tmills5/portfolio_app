@@ -10,19 +10,19 @@ import {
   MDBNavbarLink,
   MDBCollapse
 } from 'mdb-react-ui-kit';
-import logoTrees from '/Users/merletmills/Development/portfolio/portfolio_app/src/assets/images/logoTrees.png';
+import simpleTreeLogo from '/Users/merletmills/Development/portfolio/portfolio_app/src/assets/images/simpleTreeLogo.png';
 
 function TopNavbar() {
   const [showNav, setShowNav] = useState(false);
 
   return(
-    <MDBNavbar expand='lg' light bgColor='dark'>
+    <MDBNavbar expand='lg' light bgColor='white'>
       <MDBContainer fluid>
         <MDBNavbarBrand href='/'>
           <img
-            src={logoTrees}
-            alt="TMillsDev"
-            className='navbar-brand-logo'
+            src={simpleTreeLogo}
+            alt="logo"
+            className='navbar-brand-logo bg-light rounded'
             />
           </MDBNavbarBrand>
         <MDBNavbarToggler
