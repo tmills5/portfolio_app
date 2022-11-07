@@ -10,7 +10,7 @@ import {
   MDBNavbarLink,
   MDBCollapse
 } from 'mdb-react-ui-kit';
-import simpleTreeLogo from '/Users/merletmills/Development/portfolio/portfolio_app/src/assets/images/simpleTreeLogo.png';
+import simpleTreeLogo from '../assets/images/simpleTreeLogo.png';
 
 function TopNavbar() {
   const [showNav, setShowNav] = useState(false);

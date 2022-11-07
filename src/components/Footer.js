@@ -2,11 +2,9 @@ import React from "react";
 import { 
   MDBFooter,  
   MDBContainer,
-  MDBCol,
-  MDBRow,
   MDBIcon,
   MDBBtn } from "mdb-react-ui-kit"
-import logo from '/Users/merletmills/Development/portfolio/portfolio_app/src/assets/images/logo.png';
+import logo from '../assets/images/logo-removebg-preview.png';
 
 function Footer() {
   return(
@@ -28,10 +26,10 @@ function Footer() {
           </MDBBtn>
         </section>
       </MDBContainer>
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+      <div style={{ backgroundColor: 'gray' }}>
         &copy; {new Date().getFullYear()} Copyright:{' '}
         <a className='text-dark' href='https://tmillsdev.ghost.io'>
-          TMillsDev
+          <img id="logo-footer" src={logo} alt="tmillsdev"/>
         </a>
       </div>
     </MDBFooter>

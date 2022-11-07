@@ -44,4 +44,10 @@ body {
 
 #logo-footer {
   height: 5rem;
+  padding: 0;
+  color: gray;
 }
+
+/* .footer-lower-text-center {
+  margin: 0;
+} */
