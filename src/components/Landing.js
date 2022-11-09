@@ -1,6 +1,6 @@
 import React from 'react';
 import { Fade } from 'react-awesome-reveal';
-import logoWhite from '/Users/MerleTMills/Development/code/portfolio_app/src/assets/images/logoWhite.png';
+import logoWhite from '../assets/images/logoWhite.png';
 
 function Landing() {
 
