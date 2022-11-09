@@ -10,7 +10,7 @@ import {
   MDBNavbarLink,
   MDBCollapse
 } from 'mdb-react-ui-kit';
-import simpleTreeLogo from '../assets/images/simpleTreeLogo.png';
+import logoWhite from '../assets/images/logoWhite.png';
 
 function TopNavbar() {
   const [showNav, setShowNav] = useState(false);
@@ -18,13 +18,13 @@ function TopNavbar() {
   return(
     <MDBNavbar expand='lg' light bgColor='black'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='/' className='text-white'>
+        {/* <MDBNavbarBrand href='/' className='text-white'>
           <img
-            src={simpleTreeLogo}
+            src={logoWhite}
             alt="logo"
             className='navbar-brand-logo bg-transparent'
             />
-          </MDBNavbarBrand>
+          </MDBNavbarBrand> */}
         <MDBNavbarToggler
           type='button'
           aria-expanded='false'

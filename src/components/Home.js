@@ -9,7 +9,7 @@ function Home() {
             {/* <TopNavbar /> */}
 
             <div className="home-parent-div">
-                <main>
+            <main>
 
             MAIN CONTENT
 
