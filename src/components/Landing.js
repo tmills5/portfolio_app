@@ -1,6 +1,6 @@
 import React from 'react';
 import { Fade } from 'react-awesome-reveal';
-import simpleTreeLogo from '/Users/MerleTMills/Development/code/portfolio_app/src/assets/images/simpleTreeLogo.png';
+import logoWhite from '/Users/MerleTMills/Development/code/portfolio_app/src/assets/images/logoWhite.png';
 
 function Landing() {
 
@@ -8,7 +8,7 @@ function Landing() {
         <div className="landing-parent-div">
             <a href='/home'>
                 <Fade duration='3000' className='center-text'>
-                    <img src={simpleTreeLogo} alt=""/>
+                    <img src={logoWhite} alt=""/>
                 </Fade>
             </a>
         </div>

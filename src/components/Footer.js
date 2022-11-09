@@ -4,7 +4,7 @@ import {
   MDBContainer,
   MDBIcon,
   MDBBtn } from "mdb-react-ui-kit"
-import logo from '../assets/images/logo-removebg-preview.png';
+// import logo from '../assets/images/logo-removebg-preview.png';
 
 function Footer() {
   return(
@@ -29,7 +29,7 @@ function Footer() {
       <div style={{ backgroundColor: 'gray' }}>
         &copy; {new Date().getFullYear()} Copyright:{' '}
         <a className='text-dark' href='https://tmillsdev.ghost.io'>
-          <img id="logo-footer" src={logo} alt="tmillsdev"/>
+          {/* <img id="logo-footer" src={logo} alt="tmillsdev"/> */}
         </a>
       </div>
     </MDBFooter>
