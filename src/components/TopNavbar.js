@@ -18,13 +18,13 @@ function TopNavbar() {
   return(
     <MDBNavbar expand='lg' light bgColor='black'>
       <MDBContainer fluid>
-        {/* <MDBNavbarBrand href='/' className='text-white'>
+        <MDBNavbarBrand href='/' className='text-white'>
           <img
             src={logoWhite}
             alt="logo"
             className='navbar-brand-logo bg-transparent'
             />
-          </MDBNavbarBrand> */}
+          </MDBNavbarBrand>
         <MDBNavbarToggler
           type='button'
           aria-expanded='false'
