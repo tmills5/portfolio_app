@@ -14,11 +14,10 @@ function Home() {
 
             <main className="home-parent-div">
                 <section className="jumbotron">
-                    <img src={TyCoffee} alt="" id="jumbotron-side-pic"/>
+                    {/* <img src={TyCoffee} alt="" id="jumbotron-side-pic"/> */}
                 <h1 className="jumbotron-text">
-                    I'm Tyson Mills!
-                    <br/>
-                    <br/>
+                    Tyson Mills
+    
                     <Fade duration="5000">Web Developer.</Fade>
                 </h1>   
 
