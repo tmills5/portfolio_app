@@ -19,8 +19,8 @@ body {
 .navbar-brand-logo {
   margin: 0;
   padding: 0;
-  height: 10rem;
-  width: 10rem;
+  height: 5rem;
+  width: 5rem;
 }
 
 
@@ -38,8 +38,8 @@ body {
 
 #jumbotron-side-pic {
   float: right;
-  width: 700px;
-  height: 900px;
+  width: 100px;
+  height: 100px;
 }
 
 /* ----------------FOOTER------------------- */
