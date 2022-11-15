@@ -75,6 +75,7 @@ export default function TopNavbar() {
       <MDBNavbar>
         <MDBContainer fluid>
           <MDBNavbarToggler
+            className='ms-auto'
             type='button'
             data-target='#navbarToggleExternalContent'
             aria-controls='navbarToggleExternalContent'
@@ -89,13 +90,13 @@ export default function TopNavbar() {
 
       <MDBCollapse show={showNavExternal}>
         <div className='bg-dark shadow-3 p-4'>
-          <MDBBtn block className='border-bottom m-0' color='black'>
+          <MDBBtn block className='border-bottom m-1' color='black' href='/projects'>
            Projects
           </MDBBtn>
-          <MDBBtn block className='border-bottom m-0' color='black'>
+          <MDBBtn block className='border-bottom m-1' color='black' href='/about'>
            About
           </MDBBtn>
-          <MDBBtn block className='border-bottom m-0' color='black'>
+          <MDBBtn block className='border-bottom m-1' color='black' href='/contacts'>
            Contact
           </MDBBtn>
         </div>
