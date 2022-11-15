@@ -6,7 +6,7 @@ import TopNavbar from './components/TopNavbar';
 import Home from './components/Home';
 import Projects from './components/Projects';
 import About from './components/About';
-import ContactForm from './components/ContactForm';
+import ContactPage from './components/ContactPage';
 import Footer from './components/Footer';
 
 
@@ -23,7 +23,7 @@ function App() {
         <Route exact path='/home' element={<Home />} />
         <Route exact path='/projects' element={<Projects />} />
         <Route exact path='/about' element={<About />} />
-        <Route exact path='/contact' element={<ContactForm />} />
+        <Route exact path='/contact' element={<ContactPage />} />
       </Routes>
 
       {/* not rendering the footer on landing page */}

@@ -42,4 +42,26 @@ body {
   height: 100px;
 }
 
+/* ----------------CONTACT------------------ */
+.contact-pane {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-page-leftside-text {
+  font-size: 80px;
+  color: white;
+}
+
+.form-input {
+  margin: 10px;
+  width: 400px;
+}
+
+.form-btn {
+  margin: 5px;
+}
+
 /* ----------------FOOTER------------------- */
