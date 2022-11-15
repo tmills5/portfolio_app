@@ -97,7 +97,6 @@ export default function TopNavbar() {
       </MDBNavbar>
 
       <MDBCollapse show={showNavExternal}>
-<<<<<<< HEAD
         <div className='bg-dark shadow-3 p-4'>
           <MDBBtn block className='border-bottom m-1' color='black' href='/projects'>
            Projects
@@ -106,16 +105,6 @@ export default function TopNavbar() {
            About
           </MDBBtn>
           <MDBBtn block className='border-bottom m-1' color='black' href='/contacts'>
-=======
-        <div className='bg-black shadow-3 p-4'>
-          <MDBBtn block className='border-bottom m-1' color='black'>
-           Projects
-          </MDBBtn>
-          <MDBBtn block className='border-bottom m-1' color='black'>
-           About
-          </MDBBtn>
-          <MDBBtn block className='border-bottom m-1' color='black'>
->>>>>>> ea4d493de2abe1ac4381b827505969b5e6d241b6
            Contact
           </MDBBtn>
         </div>
