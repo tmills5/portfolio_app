@@ -104,7 +104,7 @@ export default function TopNavbar() {
           <MDBBtn block className='border-bottom m-1' color='black' href='/about'>
            About
           </MDBBtn>
-          <MDBBtn block className='border-bottom m-1' color='black' href='/contacts'>
+          <MDBBtn block className='border-bottom m-1' color='black' href='/contact'>
            Contact
           </MDBBtn>
         </div>
