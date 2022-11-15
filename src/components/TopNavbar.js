@@ -10,7 +10,7 @@
 //   MDBNavbarLink,
 //   MDBCollapse
 // } from 'mdb-react-ui-kit';
-// import logoWhite from '../assets/images/logoWhite.png';
+import logoWhite from '../assets/images/logoWhite.png';
 
 // function TopNavbar() {
 //   const [showNav, setShowNav] = useState(false);
@@ -65,6 +65,7 @@ import {
   MDBNavbarToggler,
   MDBIcon,
   MDBBtn,
+  MDBNavbarBrand,
 } from 'mdb-react-ui-kit';
 
 export default function TopNavbar() {
@@ -74,7 +75,15 @@ export default function TopNavbar() {
     <>
       <MDBNavbar>
         <MDBContainer fluid>
+          <MDBNavbarBrand className="text-dark" href="/home">
+            <img 
+              id="navbar-brand-logo" 
+              src={logoWhite} 
+              alt="tmillsdev"
+            />
+          </MDBNavbarBrand>
           <MDBNavbarToggler
+            className='ms-auto'
             type='button'
             data-target='#navbarToggleExternalContent'
             aria-controls='navbarToggleExternalContent'
@@ -88,14 +97,14 @@ export default function TopNavbar() {
       </MDBNavbar>
 
       <MDBCollapse show={showNavExternal}>
-        <div className='bg-dark shadow-3 p-4'>
-          <MDBBtn block className='border-bottom m-0' color='black'>
+        <div className='bg-black shadow-3 p-4'>
+          <MDBBtn block className='border-bottom m-1' color='black'>
            Projects
           </MDBBtn>
-          <MDBBtn block className='border-bottom m-0' color='black'>
+          <MDBBtn block className='border-bottom m-1' color='black'>
            About
           </MDBBtn>
-          <MDBBtn block className='border-bottom m-0' color='black'>
+          <MDBBtn block className='border-bottom m-1' color='black'>
            Contact
           </MDBBtn>
         </div>

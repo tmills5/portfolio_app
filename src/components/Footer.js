@@ -23,9 +23,9 @@ function Footer() {
         </section>
       </MDBContainer>
         &copy; {new Date().getFullYear()} Copyright:{' '}
-        <a className='text-dark' href='https://tmillsdev.ghost.io'>
+        {/* <a className='text-dark' href='https://tmillsdev.ghost.io'>
           <img id="logo-footer" src={logoWhite} alt="tmillsdev"/>
-        </a>
+        </a> */}
     </MDBFooter>
   );
 }

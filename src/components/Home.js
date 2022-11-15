@@ -13,16 +13,16 @@ function Home() {
             {/* <TopNavbar /> */}
 
             <main className="home-parent-div">
-                <section className="jumbotron">
+                 <section className="jumbotron">
                     {/* <img src={TyCoffee} alt="" id="jumbotron-side-pic"/> */}
-                <h1 className="jumbotron-text">
+                {/* <h1 className="jumbotron-text">
                     Tyson Mills
     
                     <Fade duration="5000">Web Developer.</Fade>
-                </h1>   
+                </h1>    */}
 
                 </section>
-                <hr/>
+                {/* <hr/> */}
                 
             </main>
         </>
