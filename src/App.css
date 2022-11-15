@@ -16,11 +16,11 @@ body {
 }
 /* ----------------NAVBAR------------------ */
 
-.navbar-brand-logo {
+#navbar-brand-logo {
   margin: 0;
   padding: 0;
-  height: 5rem;
-  width: 5rem;
+  height: 6em;
+  width: 6em;
 }
 
 
@@ -43,13 +43,3 @@ body {
 }
 
 /* ----------------FOOTER------------------- */
-
-#logo-footer {
-  height: 5rem;
-  padding: 0;
-  color: gray;
-}
-
-/* .footer-lower-text-center {
-  margin: 0;
-} */
