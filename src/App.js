@@ -27,7 +27,7 @@ function App() {
       </Routes>
 
       {/* not rendering the footer on landing page */}
-      {window.location.pathname !== '/' ? <Footer /> : null}
+      {/* {window.location.pathname !== '/' ? <Footer /> : null} */}
     </div>
   );
 }

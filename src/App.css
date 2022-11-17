@@ -3,17 +3,17 @@ body {
   margin: 0;
   height: 100%;
   font-family: Roboto, Helvetica, Arial, sans-serif;
-  background-color: rgb(0, 0, 0); 
-  /* border: double; */
-  /* border-color:rgb(19, 51, 9);
-  border-width: thick; */
+  /* background-image: url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  background: url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
 }
-
-/* .App { 
-  text-align: center;
-  min-height: 100vh;
-  margin: 5px;
-} */
 
 .splitscreen-container {
   position: relative;
@@ -34,18 +34,34 @@ body {
 
 
 /* ----------------HOME------------------ */
+.home-parent-div {
+  background-color: black;
+  position: absolute;
+  /* right: 50%; */
+  left: 10vh;
+  top: 5vh;
+  height: 600px;
+  width: 1350px;
+  margin: auto;
+}
 
-/* #hero-image-left {
+.tmd-logo-white {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  top: 50px;
+  left: 100px;
+  padding: 0;
+  margin: 0;
+}
 
-} */
-
-/* .home-pane-left {
-} */
-
-/* .home-pane-right {
-  height: 100vh;
-  width: 100vh;
-} */
+.hero-pic {
+  position: absolute;
+  height: 550px;
+  left: 100px;
+  top: 100px;
+  /* background-color: antiquewhite; */
+}
 
 .home-text-container {
   height: 300px;
@@ -54,19 +70,29 @@ body {
   left: 200px;
   top:200px;
 }
+
 .home-subtitle {
   position: absolute;
   left: 20px;
   
 }
 
+hr {
+  width: 15%;
+  height: 20px;
+  position: absolute;
+  right: 535px;
+  top: 90px;
+  color: white;
+}
+
 .home-title {
-  font-size: 100px;
+  font-size: 75px;
   text-align: center;
   margin: 10px;
   position: absolute;
-  left: 30px;
-  top: 30px;
+  right: 350px;
+  top: 120px;
   color: white;
 }
 
