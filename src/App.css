@@ -15,7 +15,15 @@ body {
   margin: 5px;
 } */
 
+.splitscreen-container {
+  position: relative;
+}
+
 /* ----------------NAVBAR------------------ */
+
+.nav-container {
+  position: relative;
+}
 
 #navbar-brand-logo {
   margin: 0;
@@ -28,20 +36,56 @@ body {
 /* ----------------HOME------------------ */
 
 /* #hero-image-left {
+
+} */
+
+/* .home-pane-left {
+} */
+
+/* .home-pane-right {
   height: 100vh;
   width: 100vh;
 } */
-/* .home-pane-left {
 
-} */
-/* 
-.home-pane-right {
+.home-text-container {
+  height: 300px;
+  width: 600px;
+  position: relative;
+  left: 200px;
+  top:200px;
+}
+.home-subtitle {
+  position: absolute;
+  left: 20px;
   
-} */
+}
 
+.home-title {
+  font-size: 100px;
+  text-align: center;
+  margin: 10px;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  color: white;
+}
+
+.home-about-text {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  color: white;
+}
 /* ----------------CONTACT------------------ */
 
 .contact-pane-left {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-pane-right {
   height: 50vh;
   display: flex;
   align-items: center;
@@ -74,5 +118,4 @@ body {
 
 .social-links {
   text-align: center;
-
 }

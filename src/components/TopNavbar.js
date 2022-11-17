@@ -72,7 +72,7 @@ export default function TopNavbar() {
   const [showNavExternal, setShowNavExternal] = useState(false);
 
   return (
-    <>
+    <div className='nav-container'>
       <MDBNavbar>
         <MDBContainer fluid>
           <MDBNavbarBrand className="text-dark" href="/home">
@@ -109,6 +109,6 @@ export default function TopNavbar() {
           </MDBBtn>
         </div>
       </MDBCollapse>
-    </>
+    </div>
   );
 }

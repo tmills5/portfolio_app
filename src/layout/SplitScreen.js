@@ -27,7 +27,7 @@ export const SplitScreen = ({
   const [left, right ] = children;
 
   return (
-    <Container>
+    <Container className='splitscreen-container'>
       <Pane weight={leftWeight}>
         {left}
       </Pane>
