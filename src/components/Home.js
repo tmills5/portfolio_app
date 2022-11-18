@@ -49,9 +49,11 @@ function Home() {
 
 // Passing in the left/right weight as props to adjust sizes
 // on this component only
-<div className='home-parent-div'>
+<main className='home-parent-div'>
     <img className='tmd-logo-white'src={logoWhite}/>
-    <div><img className='hero-pic' src={TyHeadshot}/></div>
+    <figure>
+        <img className='hero-pic' src={TyHeadshot}/>
+    </figure>
     <hr/>
     <div className='home-title'>Tyson Mills</div>
     <div className='home-subtitle'>
@@ -64,6 +66,12 @@ function Home() {
             From career firefighter to software developer...<br/>I bring strong sense of professionalism, adaptability, and resourcesfulness to all of my projects. 
         </p>
     </div>
+    <nav className='nav-container'>
+        <a className="nav-link" href='/projects'>work</a>
+        <a className="nav-link" href='/about'>about</a>
+        <a className="nav-link" href='/contact'>contact</a>
+    </nav>
+  
 
       {/* <SplitScreen leftWeight={1} rightWeight={1.5} >
         <div className='home-text-container'>
@@ -81,9 +89,9 @@ function Home() {
             <RightHomeDiv />
         </div>
 
-        </SplitScreen> */}
+        </SplitScreen>  */}
         <Footer />
-</div>
+</main>
     )
 }
 export default Home;

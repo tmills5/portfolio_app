@@ -109,20 +109,36 @@ hr {
   right: 63px;
   top: 300px;
 }
+
+.nav-container {
+  position: absolute;
+  width: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  color: white;
+  right: 400px;
+  top: 450px;
+}
+
+.nav-link {
+  font-size: 25px;
+}
 /* ----------------CONTACT------------------ */
 
 .contact-pane-left {
-  height: 50vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .contact-pane-right {
-  height: 50vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: black;
 }
 
 .contact-page-leftside-text {
