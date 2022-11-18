@@ -63,7 +63,7 @@ function Home() {
     </div>
     <div className='home-about-text'>
         <p >
-            From career firefighter to software developer...<br/>I bring strong sense of professionalism, adaptability, and resourcesfulness to all of my projects. 
+            From career firefighter to software developer...<br/>I bring a strong sense of professionalism, adaptability, and resourcefulness to all of my projects. 
         </p>
     </div>
     <hr className='hr-bottom'/>

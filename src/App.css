@@ -108,14 +108,14 @@ body {
   position: absolute;
   right: 324px;
   top: 250px;
-  color: white;
+  color: grey;
 }
 
 .home-about-text {
   position: absolute;
   /* text-align: center; */
   color: white;
-  right: 63px;
+  right: 60px;
   top: 300px;
 }
 
