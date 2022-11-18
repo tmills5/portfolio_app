@@ -54,6 +54,17 @@ function Home() {
     <div><img className='hero-pic' src={TyCoffeeNoBg}/></div>
     <hr/>
     <div className='home-title'>Tyson Mills</div>
+    <div className='home-subtitle'>
+        <h6>
+            Full Stack Software Engineer - Based in Mississippi, USA
+        </h6>
+    </div>
+    <div className='home-about-text'>
+        <p >
+            From career firefighter to software developer...<br/>I bring strong sense of professionalism, adaptability, and resourcesfulness to all of my projects. 
+        </p>
+    </div>
+
       {/* <SplitScreen leftWeight={1} rightWeight={1.5} >
         <div className='home-text-container'>
             <div className='home-subtitle'>Full Stack Software Engineer - Based in Mississippi, USA</div>
@@ -71,6 +82,7 @@ function Home() {
         </div>
 
         </SplitScreen> */}
+        <Footer />
 </div>
     )
 }

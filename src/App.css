@@ -49,8 +49,8 @@ body {
   position: absolute;
   height: 50px;
   width: 150px;
-  top: 50px;
-  left: 100px;
+  top: 30px;
+  left: 50px;
   padding: 0;
   margin: 0;
 }
@@ -60,7 +60,8 @@ body {
   height: 550px;
   left: 100px;
   top: 100px;
-  /* background-color: antiquewhite; */
+  background-color: rgb(1, 1, 1);
+  border-radius: 60%;
 }
 
 .home-text-container {
@@ -71,11 +72,7 @@ body {
   top:200px;
 }
 
-.home-subtitle {
-  position: absolute;
-  left: 20px;
-  
-}
+
 
 hr {
   width: 15%;
@@ -96,11 +93,21 @@ hr {
   color: white;
 }
 
+.home-subtitle {
+  text-align: center;
+  margin: 10px;
+  position: absolute;
+  right: 324px;
+  top: 250px;
+  color: white;
+}
+
 .home-about-text {
   position: absolute;
-  bottom: 20px;
-  text-align: center;
+  /* text-align: center; */
   color: white;
+  right: 63px;
+  top: 300px;
 }
 /* ----------------CONTACT------------------ */
 
