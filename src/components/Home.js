@@ -1,6 +1,6 @@
 import React from 'react';
 // import TopNavbar from './TopNavbar';
-import TyCoffeeNoBg from '../assets/images/TyCoffeeNoBg.png';
+import TyHeadshot from '../assets/images/TyHeadshot.jpeg';
 import logoWhite from '../assets/images/logoWhite - Edited.png';
 import {Fade} from 'react-awesome-reveal';
 import { SplitScreen } from '../layout/SplitScreen';
@@ -51,7 +51,7 @@ function Home() {
 // on this component only
 <div className='home-parent-div'>
     <img className='tmd-logo-white'src={logoWhite}/>
-    <div><img className='hero-pic' src={TyCoffeeNoBg}/></div>
+    <div><img className='hero-pic' src={TyHeadshot}/></div>
     <hr/>
     <div className='home-title'>Tyson Mills</div>
     <div className='home-subtitle'>
