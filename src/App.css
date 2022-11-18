@@ -74,12 +74,21 @@ body {
 
 
 
-hr {
+.hr-top {
   width: 15%;
   height: 20px;
   position: absolute;
   right: 535px;
   top: 90px;
+  color: white;
+}
+
+.hr-bottom {
+  width: 15%;
+  height: 20px;
+  position: absolute;
+  right: 535px;
+  top: 385px;
   color: white;
 }
 

@@ -54,7 +54,7 @@ function Home() {
     <figure>
         <img className='hero-pic' src={TyHeadshot}/>
     </figure>
-    <hr/>
+    <hr className='hr-top'/>
     <div className='home-title'>Tyson Mills</div>
     <div className='home-subtitle'>
         <h6>
@@ -66,6 +66,7 @@ function Home() {
             From career firefighter to software developer...<br/>I bring strong sense of professionalism, adaptability, and resourcesfulness to all of my projects. 
         </p>
     </div>
+    <hr className='hr-bottom'/>
     <nav className='nav-container'>
         <a className="nav-link" href='/projects'>work</a>
         <a className="nav-link" href='/about'>about</a>
