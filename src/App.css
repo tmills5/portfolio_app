@@ -33,118 +33,35 @@ body {
 
 
 /* ----------------HOME------------------ */
-.home-parent-div-container {
-  background-color: black;
-  position: absolute;
-  left: 10vh;
-  top: 5vh;
-  height: 600px;
-  width: 90%;
-  margin: auto;
+.home-main {
+  margin-top: 20px;
 }
-
 
 .tmd-logo-white {
-  position: absolute;
   height: 50px;
   width: 150px;
-  top: 30px;
-  left: 50px;
-  padding: 0;
-  margin: 0;
 }
 
-.hero-pic {
-  display: flex;
-  position: absolute;
-  height: 95%;
-  max-width: 100%;
-  left: 100px;
-  top: 100px;
-  background-color: rgb(1, 1, 1);
-  border-radius: 5%;
+.home-right-text {
+  text-align: center;
 }
 
-.home-right-container {
-  display: flex;
-  flex: 50%;
-  height: 400px;
-  width: 600px;
-  position: absolute;
-  right: 100px;
-  top:100px;
-}
-
-
-
-.hr-top {
-  width: 15%;
+hr {
+  width: 75%;
   height: 20px;
-  margin: 0;
-  position: absolute;
-  left: 0;
-  top: 0;
   color: white;
-}
-
-.hr-bottom {
-  width: 15%;
-  height: 20px;
-  position: absolute;
-  right: 535px;
-  top: 385px;
-  color: white;
+  margin: auto;
 }
 
 .home-title {
   font-size: 75px;
   text-align: center;
-  margin: 10px;
-  position: absolute;
-  right: 350px;
-  top: 120px;
+  margin: 20px;
   color: white;
 }
 
-.home-subtitle-wrapper {
-  text-align: center;
-  margin: 10px;
-  position: absolute;
-  right: 324px;
-  top: 250px;
-  color: grey;
-}
-
-.home-about-text-wrapper {
-  position: absolute;
-  /* text-align: center; */
-  color: white;
-  right: 60px;
-  top: 300px;
-}
-
-.nav-container {
-  position: absolute;
-  width: 350px;
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-  color: white;
-  right: 400px;
-  top: 450px;
-}
-
-.nav-link {
-  font-size: 25px;
-}
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .hero-pic, .home-right-container, .hr-top {   
-    display: block; 
-    float: none; 
-    width: 100%;
-  }
+h5, p {
+  margin: 20px;
 }
 
 /* ----------------CONTACT------------------ */
@@ -190,4 +107,7 @@ body {
 
 .social-links {
   text-align: center;
+  margin-top:70px;
+  padding: 20px;
+
 }

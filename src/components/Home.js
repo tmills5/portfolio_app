@@ -1,11 +1,12 @@
 import React from 'react';
 // import TopNavbar from './TopNavbar';
-import TyHeadshot from '../assets/images/TyHeadshot.jpeg';
+import TyHeadshot from '../assets/images/TyHeadshotNoBg.png';
 import logoWhite from '../assets/images/logoWhite - Edited.png';
 import {Fade} from 'react-awesome-reveal';
 import { SplitScreen } from '../layout/SplitScreen';
 import Footer from './Footer';
-import TopNavbar from './TopNavbar';
+import Navbar from './Navbar';
+import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
 
 // const LeftHomeDiv = () => {
 //   return (
@@ -30,32 +31,68 @@ import TopNavbar from './TopNavbar';
 function Home() {
 
     return(
-        // <>
-        //     {/* <TopNavbar /> */}
+    <MDBContainer className='bg-black home-main'>
 
-        //     <main className="home-parent-div">
-        //          <section className="jumbotron">
-        //             {/* <img src={TyCoffee} alt="" id="jumbotron-side-pic"/> */}
-        //         {/* <h1 className="jumbotron-text">
-        //             Tyson Mills
-        //             <Fade duration="5000">Web Developer.</Fade>
-        //         </h1>    */}
+        <MDBRow evenly>
+            <MDBCol size='4'>
+                <img className='img-fluid' src={TyHeadshot} alt="hero-pic"/>
+            </MDBCol>
+            <MDBCol size='8' className='home-right-text'>
+                <div className='home-title'>Tyson Mills</div>
+                <h5>
+                Full Stack Software Engineer - Based in Mississippi, USA
+                </h5>
+            <hr/>
+                <p>
+                From career firefighter to software developer...<br/>I bring a strong sense of professionalism, adaptability, and resourcefulness to all of my projects. 
+                </p>
+            <hr/>
+            <div className='social-links'>
+            <MDBBtn
+          // rippleColor="light"
+          color='link'
+          floating
+          size="lg"
+          className='text-dark m-1'
+          href='#!'
+          role='button'
+          >
+            <MDBIcon fab className='fa-linkedin' />
+        </MDBBtn>
+        <MDBBtn
+          rippleColor="dark"
+          color='link'
+          floating
+          size="lg"
+          className='text-dark m-1'
+          href='#!'
+          role='button'
+          >
+            <MDBIcon fab className='fa-twitter' />
+        </MDBBtn>
+        <MDBBtn
+          rippleColor="dark"
+          color='link'
+          floating
+          size="lg"
+          className='text-dark m-1'
+          href='#!'
+          role='button'
+          >
+            <MDBIcon fab className='fa-github' />
+        </MDBBtn>
+        </div>
+            </MDBCol>
+          
+        </MDBRow>
+        
+    </MDBContainer>
+    )
+}
 
-        //         </section>
-        //         {/* <hr/> */}
-                
-        //     </main>
-        // </>
 
-// Passing in the left/right weight as props to adjust sizes
-// on this component only
-<main className='home-parent-div-container'>
-    <img className='tmd-logo-white'src={logoWhite} alt="logo"/>
-    <figure>
-        <img className='hero-pic' src={TyHeadshot} alt="hero-pic"/>
-    </figure>
-    <div className="home-right-container">
-        <hr className='hr-top'/>
+    {/* <div className="home-right-container"> */}
+        {/* <hr className='hr-top'/> */}
         {/* <div className='home-title'>Tyson Mills</div>
         <div className='home-subtitle-wrapper'>
             <h6>
@@ -68,7 +105,7 @@ function Home() {
             </p>
         </div>
         <hr className='hr-bottom'/> */}
-    </div>
+    {/* </div> */}
     {/* <nav className='nav-container'>
         <a className="nav-link" href='/projects'>work</a>
         <a className="nav-link" href='/about'>about</a>
@@ -93,8 +130,7 @@ function Home() {
         </div>
 
         </SplitScreen>  */}
-        <Footer />
-</main>
-    )
-}
-export default Home;
+        {/* <Footer /> */}
+
+
+        export default Home;

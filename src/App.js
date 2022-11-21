@@ -2,7 +2,7 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 
 import Landing from './components/Landing';
-import TopNavbar from './components/TopNavbar';
+import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Projects from './components/Projects';
 import About from './components/About';
@@ -15,8 +15,8 @@ function App() {
     //?  DRY up the rendering of header and footer
     <div className="App">
       {/* not rendering the navbar on landing page */}
-      {/* {window.location.pathname !== '/' ? <TopNavbar /> : null} */}
-
+      {/* {window.location.pathname !== '/' ? <Navbar /> : null} */}
+    <Navbar />
       <Routes>
         
         <Route exact path='/' element={<Landing />} />

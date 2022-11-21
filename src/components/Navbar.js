@@ -10,7 +10,7 @@
 //   MDBNavbarLink,
 //   MDBCollapse
 // } from 'mdb-react-ui-kit';
-import logoWhite from '../assets/images/logoWhite.png';
+import logoWhite from '../assets/images/logoWhite - Edited.png';
 
 // function TopNavbar() {
 //   const [showNav, setShowNav] = useState(false);
@@ -60,55 +60,57 @@ import logoWhite from '../assets/images/logoWhite.png';
 import React, { useState } from 'react';
 import {
   MDBContainer,
-  MDBCollapse,
   MDBNavbar,
+  MDBNavbarBrand,
   MDBNavbarToggler,
   MDBIcon,
+  MDBNavbarNav,
+  MDBNavbarItem,
+  MDBNavbarLink,
   MDBBtn,
-  MDBNavbarBrand,
+  MDBDropdown,
+  MDBDropdownToggle,
+  MDBDropdownMenu,
+  MDBDropdownItem,
+  MDBCollapse,
 } from 'mdb-react-ui-kit';
 
-export default function TopNavbar() {
-  const [showNavExternal, setShowNavExternal] = useState(false);
+export default function App() {
+  const [showBasic, setShowBasic] = useState(false);
 
   return (
-    <div className='nav-container'>
-      <MDBNavbar>
-        <MDBContainer fluid>
-          <MDBNavbarBrand className="text-dark" href="/home">
-            <img 
-              id="navbar-brand-logo" 
-              src={logoWhite} 
-              alt="tmillsdev"
-            />
-          </MDBNavbarBrand>
-          <MDBNavbarToggler
-            className='ms-auto'
-            type='button'
-            data-target='#navbarToggleExternalContent'
-            aria-controls='navbarToggleExternalContent'
-            aria-expanded='false'
-            aria-label='Toggle navigation'
-            onClick={() => setShowNavExternal(!showNavExternal)}
-          >
-            <MDBIcon icon='bars' fas style={{"color": "white"}}/>
-          </MDBNavbarToggler>
-        </MDBContainer>
-      </MDBNavbar>
+    <MDBNavbar expand='lg' light bgColor='dark'>
+      <MDBContainer fluid>
+        <MDBNavbarBrand href='/'>
+          <img className='tmd-logo-white'src={logoWhite} alt="logo"/>
+ 
+        </MDBNavbarBrand>
 
-      <MDBCollapse show={showNavExternal}>
-        <div className='bg-dark shadow-3 p-4'>
-          <MDBBtn block className='border-bottom m-1' color='black' href='/projects'>
-           Projects
-          </MDBBtn>
-          <MDBBtn block className='border-bottom m-1' color='black' href='/about'>
-           About
-          </MDBBtn>
-          <MDBBtn block className='border-bottom m-1' color='black' href='/contact'>
-           Contact
-          </MDBBtn>
-        </div>
-      </MDBCollapse>
-    </div>
+        <MDBNavbarToggler
+          aria-controls='navbarSupportedContent'
+          aria-expanded='false'
+          aria-label='Toggle navigation'
+          onClick={() => setShowBasic(!showBasic)}
+        >
+          <MDBIcon icon='bars' fas />
+        </MDBNavbarToggler>
+
+        <MDBCollapse navbar show={showBasic}>
+          <MDBNavbarNav className='ms-auto mb-2 mb-lg-0 ms-'>
+            <MDBNavbarItem>
+              <MDBNavbarLink active aria-current='page' href='/projects'>
+                Work
+              </MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink href='/about'>About</MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink href='/contact'>Contact</MDBNavbarLink>
+            </MDBNavbarItem>
+          </MDBNavbarNav>
+        </MDBCollapse>
+      </MDBContainer>
+    </MDBNavbar>
   );
 }
