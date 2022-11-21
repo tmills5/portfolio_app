@@ -49,29 +49,31 @@ function Home() {
 
 // Passing in the left/right weight as props to adjust sizes
 // on this component only
-<main className='home-parent-div'>
-    <img className='tmd-logo-white'src={logoWhite}/>
+<main className='home-parent-div-container'>
+    <img className='tmd-logo-white'src={logoWhite} alt="logo"/>
     <figure>
-        <img className='hero-pic' src={TyHeadshot}/>
+        <img className='hero-pic' src={TyHeadshot} alt="hero-pic"/>
     </figure>
-    <hr className='hr-top'/>
-    <div className='home-title'>Tyson Mills</div>
-    <div className='home-subtitle'>
-        <h6>
-            Full Stack Software Engineer - Based in Mississippi, USA
-        </h6>
+    <div className="home-right-container">
+        <hr className='hr-top'/>
+        {/* <div className='home-title'>Tyson Mills</div>
+        <div className='home-subtitle-wrapper'>
+            <h6>
+                Full Stack Software Engineer - Based in Mississippi, USA
+            </h6>
+        </div>
+        <div className='home-about-text-wrapper'>
+            <p >
+                From career firefighter to software developer...<br/>I bring a strong sense of professionalism, adaptability, and resourcefulness to all of my projects. 
+            </p>
+        </div>
+        <hr className='hr-bottom'/> */}
     </div>
-    <div className='home-about-text'>
-        <p >
-            From career firefighter to software developer...<br/>I bring a strong sense of professionalism, adaptability, and resourcefulness to all of my projects. 
-        </p>
-    </div>
-    <hr className='hr-bottom'/>
-    <nav className='nav-container'>
+    {/* <nav className='nav-container'>
         <a className="nav-link" href='/projects'>work</a>
         <a className="nav-link" href='/about'>about</a>
         <a className="nav-link" href='/contact'>contact</a>
-    </nav>
+    </nav> */}
   
 
       {/* <SplitScreen leftWeight={1} rightWeight={1.5} >
