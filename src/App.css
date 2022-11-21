@@ -20,27 +20,21 @@ body {
 
 /* ----------------NAVBAR------------------ */
 
-/* .nav-container {
-  position: relative;
+
+.tmd-navbar-brand-logo {
+  height: 50px;
+  width: 150px;
 }
-
-#navbar-brand-logo {
-  margin: 0;
-  padding: 0;
-  height: 5em;
-  width: 5em;
-} */
-
 
 /* ----------------HOME------------------ */
 .home-main {
   margin-top: 20px;
 }
 
-.tmd-logo-white {
-  height: 50px;
-  width: 150px;
-}
+/* .hero-pic {
+  position: absolute;
+  left: 175px;
+} */
 
 .home-right-text {
   text-align: center;
@@ -97,17 +91,14 @@ h5, p {
 
 /* ----------------FOOTER------------------- */
 
-.footer-main-div {
-  position: absolute;
-  bottom: 0px;
-  right: 0;
-  margin: 10px;
-  right: 20px;
+.copyright {
+  text-align: right;
 }
 
 .social-links {
+  display: flex;
   text-align: center;
   margin-top:70px;
   padding: 20px;
-
+  justify-content: space-evenly;
 }

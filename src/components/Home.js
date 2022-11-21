@@ -35,7 +35,7 @@ function Home() {
 
         <MDBRow evenly>
             <MDBCol size='4'>
-                <img className='img-fluid' src={TyHeadshot} alt="hero-pic"/>
+                <img className='img-fluid hero-pic' src={TyHeadshot} alt="hero-pic"/>
             </MDBCol>
             <MDBCol size='8' className='home-right-text'>
                 <div className='home-title'>Tyson Mills</div>
@@ -57,7 +57,7 @@ function Home() {
           href='#!'
           role='button'
           >
-            <MDBIcon fab className='fa-linkedin' />
+            <MDBIcon fab className='fa-linkedin' size='2x'/>
         </MDBBtn>
         <MDBBtn
           rippleColor="dark"
@@ -68,7 +68,7 @@ function Home() {
           href='#!'
           role='button'
           >
-            <MDBIcon fab className='fa-twitter' />
+            <MDBIcon fab className='fa-twitter' size='2x'/>
         </MDBBtn>
         <MDBBtn
           rippleColor="dark"
@@ -79,13 +79,16 @@ function Home() {
           href='#!'
           role='button'
           >
-            <MDBIcon fab className='fa-github' />
+            <MDBIcon fab className='fa-github' size='2x'/>
         </MDBBtn>
         </div>
             </MDBCol>
           
         </MDBRow>
-        
+        <div className="copyright">
+        &copy; {new Date().getFullYear()} Copyright:{' '}
+        TMillsDev
+      </div>
     </MDBContainer>
     )
 }
