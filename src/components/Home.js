@@ -12,11 +12,20 @@ function Home() {
 
         <MDBRow evenly>
             <MDBCol size='4'>
-                <Fade><img className='img-fluid hero-pic' src={TyHeadshot} alt="hero-pic"/></Fade>
+                <Fade duration='3400'>
+                    <div className='bg-image'>
+                    <img 
+                        className='img-fluid hero-pic'
+                        src={TyHeadshot} 
+                        alt="hero-pic"
+                    />
+                    <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}></div>
+                    </div>
+                </Fade>
             </MDBCol>
             <MDBCol size='8' className='home-right-text'>
                <div className='home-title'>Tyson Mills</div>
-               <Slide direction='right'><h5>Full Stack Software Engineer - Based in Mississippi, USA</h5></Slide>
+               <Slide direction='right' du><h5>Full Stack Software Engineer - Based in Mississippi, USA</h5></Slide>
             <hr/>
                <Slide><p>
                 From career firefighter to software developer...<br/>I bring a strong sense of professionalism, adaptability, and resourcefulness to all of my projects. 
