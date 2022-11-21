@@ -29,6 +29,7 @@ body {
 /* ----------------HOME------------------ */
 .home-main {
   margin-top: 20px;
+  box-shadow: 5px 5px 20px rgb(119, 117, 117);
 }
 
 /* .hero-pic {

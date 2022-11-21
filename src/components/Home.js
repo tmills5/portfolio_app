@@ -1,32 +1,9 @@
 import React from 'react';
 // import TopNavbar from './TopNavbar';
 import TyHeadshot from '../assets/images/TyHeadshotNoBg.png';
-import logoWhite from '../assets/images/logoWhite - Edited.png';
-import {Fade} from 'react-awesome-reveal';
-import { SplitScreen } from '../layout/SplitScreen';
-import Footer from './Footer';
-import Navbar from './Navbar';
+import {Fade, Slide} from 'react-awesome-reveal';
+
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
-
-// const LeftHomeDiv = () => {
-//   return (
-//     <img 
-//         id="hero-image-left"
-//         // src="https://images.pexels.com/photos/1261731/pexels-photo-1261731.jpeg?auto=compress&cs=tinysrgb&w=1600"
-//         src={TyCoffeeNoBg}
-//         style={{width: "80vh", height: "100vh"}}
-//         alt="Tyson coffee selfie"
-//     />
-//     );
-// }
-
-// const RightHomeDiv = () => {
-//   return(
-//     <>
-//         <Footer />
-//     </> 
-//   )
-// }
 
 function Home() {
 
@@ -35,17 +12,15 @@ function Home() {
 
         <MDBRow evenly>
             <MDBCol size='4'>
-                <img className='img-fluid hero-pic' src={TyHeadshot} alt="hero-pic"/>
+                <Fade><img className='img-fluid hero-pic' src={TyHeadshot} alt="hero-pic"/></Fade>
             </MDBCol>
             <MDBCol size='8' className='home-right-text'>
-                <div className='home-title'>Tyson Mills</div>
-                <h5>
-                Full Stack Software Engineer - Based in Mississippi, USA
-                </h5>
+               <div className='home-title'>Tyson Mills</div>
+               <Slide direction='right'><h5>Full Stack Software Engineer - Based in Mississippi, USA</h5></Slide>
             <hr/>
-                <p>
+               <Slide><p>
                 From career firefighter to software developer...<br/>I bring a strong sense of professionalism, adaptability, and resourcefulness to all of my projects. 
-                </p>
+                </p></Slide> 
             <hr/>
             <div className='social-links'>
             <MDBBtn
