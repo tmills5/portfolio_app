@@ -9,7 +9,6 @@ function Home() {
 
     return(
     <MDBContainer className='bg-black home-main'>
-
         <MDBRow evenly>
             <MDBCol size='4'>
                 <Fade duration='3400'>
