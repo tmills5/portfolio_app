@@ -16,7 +16,6 @@ function Projects() {
             Your browser does not support the video tag.
           </video>
         </div>
-
         <div className='work-pane-right'>
           <div className='work-pane-text'>
             The Mississippi BrewHouse is a Single Page Application that allows users to login and explore the local breweries in Mississippi. The user has the ability to leave comments on visited breweries as well as track those comments in their user profile.
@@ -27,7 +26,10 @@ function Projects() {
                 <li>Active Record</li>
                 <li>BCrypt Gem for encryption</li>
               </ul>
-          <img src={MBHScreenShot} className='project-snapshot' />
+          <div className='project-snapshop-wrapper'>
+            <img src={MBHScreenShot} className='project-snapshot' />
+          </div>
+
 
           </div>
         </div>

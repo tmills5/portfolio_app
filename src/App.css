@@ -60,28 +60,41 @@ h5, p {
 }
 
 /* ----------------WORK------------------ */
+
   .work-pane-left, .work-pane-right {
     height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-
+  .work-pane-right {
+    background-color: black;
+  }
+  
   .project-title {
     position: absolute;
     top: 150px;
     color: rgb(228, 220, 220);
+    margin: 5px;
   }
 
   .work-pane-text {
     color: rgb(228, 220, 220);
     font-size: 20px;
+    margin: 5px;
+  }
+
+  .project-snapshop-wrapper {
+    display: flex;
+    justify-content: center;
   }
 
   .project-snapshot {
-    height: 20%; 
-    width: 20%;
+    height: 50%; 
+    width: 50%;
+    margin: 5px;
   }
+
 /* ----------------CONTACT------------------ */
 
 .contact-pane-left, .contact-pane-right {
