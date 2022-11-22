@@ -13,7 +13,7 @@ const Pane = styled.div`
 `;
 
 
-export const SplitScreen = ({
+const SplitScreen = ({
   // using children props is more dev friendly cause now we can pass comps or
   // whatever directly to the lefthand or righthand components. Go look at app.js
   // and take note of the name and message parts in the components
@@ -37,3 +37,5 @@ export const SplitScreen = ({
     </Container>
   )
 };
+
+export default SplitScreen;

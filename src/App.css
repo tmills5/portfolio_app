@@ -14,6 +14,11 @@ body {
   /* position: relative; */
 }
 
+/* ----------------Landing------------------ */
+
+.landing-parent-div {
+  text-align: center;
+}
 /* ----------------NAVBAR------------------ */
 
 
@@ -54,9 +59,32 @@ h5, p {
   margin: 20px;
 }
 
+/* ----------------WORK------------------ */
+  .work-pane-left, .work-pane-right {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-title {
+    position: absolute;
+    top: 150px;
+    color: rgb(228, 220, 220);
+  }
+
+  .work-pane-text {
+    color: rgb(228, 220, 220);
+    font-size: 20px;
+  }
+
+  .project-snapshot {
+    height: 20%; 
+    width: 20%;
+  }
 /* ----------------CONTACT------------------ */
 
-.contact-pane-left {
+.contact-pane-left, .contact-pane-right {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -64,14 +92,10 @@ h5, p {
 }
 
 .contact-pane-right {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: black;
 }
 
-.contact-page-leftside-text {
+.contact-pane-left-text {
   font-size: 80px;
   color: white;
 }
