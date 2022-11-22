@@ -61,19 +61,32 @@ h5, p {
 
 /* ----------------WORK------------------ */
 
-  .work-pane-left, .work-pane-right {
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .work-pane-right {
-    background-color: black;
-  }
+  .work-pane-left, 
+  .work-pane-right,
+  .work-pane-left-2 
+    {
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+  .work-pane-right, 
+  .work-pane-left-2 
+    {
+      background-color: black;
+    }
 
   .project-title {
     position: absolute;
-    top: 150px;
+    top: 120px;
+    color: rgb(228, 220, 220);
+    margin: 5px;
+  }
+
+  .project-title-2 {
+    position: absolute;
+    top: 900px;
     color: rgb(228, 220, 220);
     margin: 5px;
   }
@@ -84,7 +97,7 @@ h5, p {
     margin: 5px;
   }
 
-  .project-snapshop-wrapper {
+  .project-snapshot-wrapper {
     display: flex;
     justify-content: center;
   }
@@ -96,8 +109,8 @@ h5, p {
   }
 
   .work-section-split {
-    background-color: white;
-    height: 100px;
+    background-color: rgb(37, 35, 35);
+    height: 50px;
   }
 /* ----------------CONTACT------------------ */
 
