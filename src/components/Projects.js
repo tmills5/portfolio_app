@@ -7,7 +7,8 @@ import MBHScreenShot from '../assets/images/MBHScreenShot.png';
 function Projects() {
 
   return(
-      <SplitScreen>
+    <>
+    <SplitScreen>
         <div className='work-pane-left'>
           <div className='project-title'><h1>Mississippi BrewHouse</h1></div>
           <video width="90%" height="90%" controls autoplay>
@@ -29,12 +30,21 @@ function Projects() {
           <div className='project-snapshop-wrapper'>
             <img src={MBHScreenShot} className='project-snapshot' />
           </div>
-
-
           </div>
         </div>
-
-      </SplitScreen>
+    </SplitScreen>
+    <section className='work-section-split'>
+      SPLITTING THE PROJECTS
+    </section>
+    <SplitScreen>
+      <div>
+fdf
+      </div>
+      <div>
+uiui
+      </div>
+    </SplitScreen>
+    </>
   ) 
 }
 

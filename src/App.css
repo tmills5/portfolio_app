@@ -70,7 +70,7 @@ h5, p {
   .work-pane-right {
     background-color: black;
   }
-  
+
   .project-title {
     position: absolute;
     top: 150px;
@@ -95,6 +95,10 @@ h5, p {
     margin: 5px;
   }
 
+  .work-section-split {
+    background-color: white;
+    height: 100px;
+  }
 /* ----------------CONTACT------------------ */
 
 .contact-pane-left, .contact-pane-right {
