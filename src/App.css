@@ -95,6 +95,7 @@ h5, p {
     color: rgb(228, 220, 220);
     font-size: 20px;
     margin: 5px;
+    padding: 25px;
   }
 
   .project-snapshot-wrapper {
