@@ -29,7 +29,7 @@ function Projects() {
                 <li>BCrypt Gem for encryption</li>
               </ul>
               <div className='project-snapshot-wrapper'>
-                <img src={MBHScreenShot} className='project-snapshot' />
+                <img src={MBHScreenShot} className='project-snapshot' alt="MBH page screenshot"/>
               </div>
           </div>
         </div>
