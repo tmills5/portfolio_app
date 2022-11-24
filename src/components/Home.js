@@ -37,7 +37,7 @@ function Home() {
           floating
           size="lg"
           className='text-dark m-1'
-          href='#!'
+          href='https://www.linkedin.com/in/tmillsdev'
           role='button'
           >
             <MDBIcon fab className='fa-linkedin' size='2x'/>
@@ -48,7 +48,7 @@ function Home() {
           floating
           size="lg"
           className='text-dark m-1'
-          href='#!'
+          href='https://www.twitter.com/tysonmillsdev'
           role='button'
           >
             <MDBIcon fab className='fa-twitter' size='2x'/>
@@ -59,7 +59,7 @@ function Home() {
           floating
           size="lg"
           className='text-dark m-1'
-          href='#!'
+          href='https://github.com/tmills5'
           role='button'
           >
             <MDBIcon fab className='fa-github' size='2x'/>

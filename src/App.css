@@ -79,14 +79,14 @@ h5, p {
 
   .project-title {
     position: absolute;
-    top: 120px;
+    top: 200px;
     color: rgb(228, 220, 220);
     margin: 5px;
   }
 
   .project-title-2 {
     position: absolute;
-    top: 900px;
+    top: 925px;
     color: rgb(228, 220, 220);
     margin: 5px;
   }
