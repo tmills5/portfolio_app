@@ -7,7 +7,7 @@ function Landing() {
     return(
         <div className="landing-parent-div">
             <a href='/home'>
-                <Fade duration='3000' className='center-text'>
+                <Fade duration='3000' className='landing-logo'>
                     <img src={logoWhite} alt=""/>
                 </Fade>
             </a>
