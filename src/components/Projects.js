@@ -1,8 +1,6 @@
 import SplitScreen from '../layout/SplitScreen.js';
 import MBHWalkthrough from '../assets/videos/MBHWalkthrough.mp4';
 import ParkItWalkthrough from '../assets/videos/ParkItWalkthrough.mp4';
-import MBHScreenShot from '../assets/images/MBHScreenShot.png';
-
 
 
 function Projects() {
@@ -18,8 +16,7 @@ function Projects() {
           </video>
         </div>
         <div className='work-pane-right'>
-          <div className='project-title'><h1>Mississippi BrewHouse</h1></div>
-            <div className='work-pane-text'>
+            <div className='work-pane-text-wrapper'>
               The Mississippi BrewHouse is a Single Page Application that allows users to login and explore the local breweries in Mississippi. The user has the ability to leave comments on visited   breweries as well as track those comments in their user profile.
               <br/>
               <ul>
@@ -36,10 +33,7 @@ function Projects() {
     </SplitScreen>
     <SplitScreen>
       <div className='work-pane-left-2'>
-        <div className='project-title-2'>
-          <h1>ParkIt</h1>
-        </div>
-          <div className='work-pane-text'>
+          <div className='work-pane-text-wrapper'>
             ParkIt is an application designed for the outdoor enthusiast in mind. The user has the ability to log in and search for National Parks to gather requisite information. The   "Admin" has full CRUD functionality.
             <br/>
             <ul>

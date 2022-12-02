@@ -62,52 +62,28 @@ h5, p {
 
 /* ----------------WORK------------------ */
 
-  .work-pane-left, 
-  .work-pane-right,
-  .work-pane-left-2 
-    {
-      height: 90vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-  .work-pane-right, 
-  .work-pane-left-2 
-    {
-      background-color: black;
-    }
-
-  .project-title {
-    position: absolute;
-    top: 200px;
-    color: rgb(228, 220, 220);
-    margin: 5px;
+.work-pane-left, 
+.work-pane-right,
+.work-pane-left-2 
+  {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  .project-title-2 {
-    position: absolute;
-    top: 925px;
-    color: rgb(228, 220, 220);
-    margin: 5px;
+.work-pane-right, 
+.work-pane-left-2 
+  {
+    background-color: black;
   }
 
-  .work-pane-text {
+
+  .work-pane-text-wrapper {
     color: rgb(228, 220, 220);
     font-size: 20px;
     margin: 5px;
     padding: 25px;
-  }
-
-  .project-snapshot-wrapper {
-    display: flex;
-    justify-content: center;
-  }
-
-  .project-snapshot {
-    height: 50%; 
-    width: 50%;
-    margin: 5px;
   }
 
   .work-section-split {
