@@ -90,6 +90,12 @@ h5, p {
     background-color: rgb(37, 35, 35);
     height: 50px;
   }
+
+/* ----------------ABOUT-------------------- */
+.about-container, .item {
+  border: solid;
+}
+
 /* ----------------CONTACT------------------ */
 
 .contact-pane-left, .contact-pane-right {
