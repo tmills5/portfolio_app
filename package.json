@@ -16,6 +16,7 @@
     "react-animate-on-scroll": "^2.1.5",
     "react-awesome-reveal": "^4.1.0",
     "react-dom": "^18.2.0",
+    "react-photo-collage": "^1.0.9",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
     "scrollreveal": "^4.0.9",
