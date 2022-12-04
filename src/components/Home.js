@@ -26,7 +26,7 @@ function Home() {
                <div className='home-title'>Tyson Mills</div>
                <Slide direction='right' du><h5>Full Stack Software Engineer - Based in Mississippi, USA</h5></Slide>
             <hr/>
-               <Slide><p>
+               <Slide direction='up'><p>
                 From career firefighter to software developer...<br/>I bring a strong sense of professionalism, adaptability, and resourcefulness to all of my projects. 
                 </p></Slide> 
             <hr/>
