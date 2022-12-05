@@ -1,42 +1,28 @@
 import TyCoffee from '../assets/images/TyCoffee.jpeg';
 import TyFireSelfie from '../assets/images/TyFireSelfie.JPG';
-import TyLoveUALatte from '../assets/images/TyLoveUALatte.jpeg';
-import { ReactPhotoCollage } from "react-photo-collage";
+import TyLoveUALatte from '../assets/images/TyLoveUALatte.JPG';
+import { Fade, Slide } from 'react-awesome-reveal';
 
-const setting = {
-  width: '100vw',
-  height: ['350px', '300px'],
-  layout: [1, 4],
-  photos: [
-    { source: {} },
-    { source: `${TyCoffee}` },
-    { source: `${TyFireSelfie}` },
-    { source: `${TyLoveUALatte}` },
-    { source: 'url/image-5.jpg' },
-    { source: 'url/image-6.jpg' },
-  ],
-  showNumOfRemainingPhotos: true
-};
-
-
+// going outside my comfort zone is how i succeed and i love to push my own limits
 
 function About() {
   
   return (
     <>
-    {/* <div className="d-flex p-4 justify-content-between about-container">
-      <img 
-        src={TyCoffee}
-        height={500}
-        alt='' />
-    </div>
     <div className="d-flex p-4 justify-content-between about-container">
+      <Fade duration='2000'>
       <img 
-        src={TyCoffee}
+        src={TyFireSelfie}
         height={500}
         alt='' />
-    </div> */}
-      <ReactPhotoCollage {...setting} />
+      </Fade>
+      <Fade duration='2000'>
+      <img 
+        src={TyLoveUALatte}
+        height={500}
+        alt=''/>
+      </Fade>
+    </div>
     </>
   )
 }

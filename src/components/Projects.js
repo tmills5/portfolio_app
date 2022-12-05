@@ -2,6 +2,8 @@ import SplitScreen from '../layout/SplitScreen.js';
 import MBHWalkthrough from '../assets/videos/MBHWalkthrough.mp4';
 import ParkItWalkthrough from '../assets/videos/ParkItWalkthrough.mp4';
 
+// scratch this and put your projects in a card format with a description, photo, demo and code link
+// set up external file and map through them?
 
 function Projects() {
 

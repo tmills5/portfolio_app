@@ -32,7 +32,8 @@ const Form = () => {
       <MDBInput
         className="form-input"
         contrast
-        label="Subject" 
+        label="Subject"
+        placeholder='Topic'
         type="text" 
         value={subject} 
         onChange={e => setSubject(e.target.value)} 

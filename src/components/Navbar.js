@@ -81,7 +81,7 @@ export default function App() {
   return (
     <MDBNavbar expand='lg' light bgColor='dark'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='/'>
+        <MDBNavbarBrand href='/home'>
           <img className='tmd-navbar-brand-logo'src={logoWhite} alt="logo"/>
  
         </MDBNavbarBrand>
