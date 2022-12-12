@@ -19,7 +19,7 @@ body {
 .landing-parent-div {
   text-align: center;
 }
-/* ----------------NAVBAR------------------ */
+/* ----------------Navbar------------------ */
 
 
 .tmd-navbar-brand-logo {
@@ -27,7 +27,7 @@ body {
   width: 150px;
 }
 
-/* ----------------HOME------------------ */
+/* ----------------Home------------------ */
 .home-main {
   margin-top: 20px;
   box-shadow: 5px 5px 20px rgb(119, 117, 117);
@@ -44,7 +44,7 @@ body {
 
 hr {
   width: 75%;
-  height: 20px;
+  height: 30px;
   color: white;
   margin: auto;
 }
@@ -60,7 +60,7 @@ h5, p {
   margin: 20px;
 }
 
-/* ----------------WORK------------------ */
+/* ----------------Work------------------ */
 
 .work-pane-left, 
 .work-pane-right,
@@ -91,12 +91,36 @@ h5, p {
     height: 50px;
   }
 
-/* ----------------ABOUT-------------------- */
-.about-container, .item {
+/* ----------------About-------------------- */
+
+.about-container {
+  display: flex;
+  flex-flow: row wrap;
   border: solid;
+  height: 100vh;
+  text-align: center;
+
+}
+/* all items 100% width */
+.container > * {
+  flex: 1 100%;
 }
 
-/* ----------------CONTACT------------------ */
+.about-section-header {
+  border: solid;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  word-wrap: break-all;
+}
+
+.about-section-header-inner-container {
+  display: flex;
+}
+
+
+
+/* ----------------Contact------------------ */
 
 .contact-pane-left, .contact-pane-right {
   height: 100vh;
