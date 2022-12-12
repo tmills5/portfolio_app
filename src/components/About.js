@@ -10,14 +10,19 @@ function About() {
   
   return (
     <div className='about-container'>
-      <header className='about-section-header'>
-        <div className='about-section-header-inner-container'>
-          <h3>fjkdlislkdklfjka;slkdfjfkdskljflkjsdl;fkj; a;slkdjfjkdka;kj a;lskdj;kljf; lkjdlkjf;ldkjf</h3>
-        </div>
-        {/* <span className='about-hero-paragraph-wrapper'>
-          <p>fjdfkdjflkajls;dkjf;laksdjf;lkajs</p>
-        </span> */}
-      </header>
+      <header className='about-section-header'>about <hr/></header>
+
+      <article className='about-section-main'>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+        {/* <div className='about-section-inner-top'></div>
+        <div className='about-section-inner-middle'></div>
+        <div className='about-section-inner-bottom'></div> */}
+      </article>
+
+      <aside className='about-aside-1'>aside 1</aside>
+      <aside className='about-aside-2'>aside-2</aside>
+
+
     </div>
     // <>
     // <div className="d-flex p-4 justify-content-between about-container">

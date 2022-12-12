@@ -97,25 +97,27 @@ h5, p {
   display: flex;
   flex-flow: row wrap;
   border: solid;
-  height: 100vh;
+  /* height: 100vh; */
   text-align: center;
 
 }
 /* all items 100% width */
 .container > * {
+  padding: 10px;
   flex: 1 100%;
 }
 
 .about-section-header {
   border: solid;
-  width: 500px;
-  height: 500px;
-  margin: auto;
-  word-wrap: break-all;
+  text-align: center;
 }
 
-.about-section-header-inner-container {
-  display: flex;
+.about-section-main {
+  border: solid;
+  /* width: 500px;
+  height: 500px;
+  margin: auto; */
+  word-wrap: break-all;
 }
 
 
