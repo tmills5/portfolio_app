@@ -10,17 +10,33 @@ function About() {
   
   return (
     <div className='about-container'>
-      <header className='about-section-header'>about <hr/></header>
 
       <article className='about-section-main'>
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-        {/* <div className='about-section-inner-top'></div>
-        <div className='about-section-inner-middle'></div>
-        <div className='about-section-inner-bottom'></div> */}
+        <header className='about-section-header'>
+          <div className='about-section-header-title'>
+            About
+          </div>
+        </header>
+        <div className='about-divider'></div>
+
+        <div className='about-section-inner-top'>
+          <div className='inner-top-title'>
+            <div>I've dedicated my life to helping to people. Now, let me help you with your software development needs.
+            </div>
+          </div>
+          <div className='inner-top-subtitle'>
+            <div className='inner-top-subtitle-text'>
+              Full Stack Developer with experience using front-end and back-end technologies such as Ruby, Rails, JavaScript, and React. Background includes 12 years as a career fire officer and medic, with strong collaboration and problem-solving skills, by using innovative ideas, and creativity for accomplishing robust and difficult tasks. Lifelong learner that is passionate about staying versed with the current technology and creating new opportunities. Effective analytical skills and attention to detail while remaining calm under pressure and meeting deadlines curated from previous roles in the medical field.
+            </div>
+          </div>
+        </div>
+
+
+        <div className='about-section-inner-middle'>MIDDLE</div>
+        <div className='about-section-inner-bottom'>BOTTOM</div>
+
       </article>
 
-      <aside className='about-aside-1'>aside 1</aside>
-      <aside className='about-aside-2'>aside-2</aside>
 
 
     </div>
