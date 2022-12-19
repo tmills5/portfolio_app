@@ -17,7 +17,13 @@ body {
 /* ----------------Landing------------------ */
 
 .landing-parent-div {
-  text-align: center;
+  /* text-align: center; */
+  display: grid;
+  place-content: center;
+}
+
+.logo-div {
+  margin: auto;
 }
 /* ----------------Navbar------------------ */
 
