@@ -1,14 +1,14 @@
 import React from 'react';
 import { Fade } from 'react-awesome-reveal';
-import logoWhite from '../assets/images/logoWhite.png';
+import logoBlack from '../assets/images/logoBlack.png';
 
 function Landing() {
 
     return(
         <div className="landing-parent-div">
             <a href='/home'>
-                <Fade duration='3000' className='landing-logo'>
-                    <img src={logoWhite} alt=""/>
+                <Fade duration='3000' class>
+                    <img src={logoBlack} alt=""/>
                 </Fade>
             </a>
         </div>
