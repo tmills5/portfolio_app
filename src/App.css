@@ -14,6 +14,22 @@ body {
   /* position: relative; */
 }
 
+/* * VARIABLES * */
+
+:root{
+  --primary: red;
+  --secondary: green;
+}
+
+/* * RESET * */
+
+body,p,a,ul,li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+
 /* ----------------Landing------------------ */
 
 .landing-parent-div {
@@ -232,4 +248,24 @@ h5, p {
   margin-top:70px;
   padding: 20px;
   justify-content: space-evenly;
+}
+
+/* * MOBILE FIRST STYLES * */
+
+/* *SMALL TABLET* */
+
+@media screen and (min-width: 620px) {
+
+}
+
+/* * LARGE TABLET/LAPTOP * */
+
+@media screen and (min-width: 620px) {
+
+}
+
+/* * DESKTOP * */
+
+@media screen and (min-width: 620px) {
+
 }
