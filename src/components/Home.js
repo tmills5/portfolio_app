@@ -7,13 +7,13 @@ import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon } from 'mdb-react-ui-kit'
 
 function Home() {
     return(
-      <MDBContainer className='container-md home-main'>
+      <MDBContainer className='container home-main'>
         <MDBRow>
-          <MDBCol className="col-sm-6 col-lg-6">
+          <MDBCol className="col-sm col-lg-6">
             {/* <Fade duration='3400'> */}
-              <div className='bg-image'>
+              <div className='hero-pic-wrapper'>
                 <img 
-                  className='img-fluid hero-pic'
+                  className='hero-pic'
                   src={TyHeadshot} 
                   alt="hero-pic"
                 />
