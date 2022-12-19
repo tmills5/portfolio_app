@@ -2,38 +2,36 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 8px;
-  height: 100%;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
-  background: url("https://images.unsplash.com/photo-1508615121316-fe792af62a63?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  /* position: relative; */
-}
-
 /* * VARIABLES * */
-
+/* can assign variables to use later on */
 :root{
-  --primary: red;
+  --primaryBG: url("https://images.unsplash.com/photo-1508615121316-fe792af62a63?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80") no-repeat center center fixed;
   --secondary: green;
 }
 
 /* * RESET * */
-
-body,p,a,ul,li {
+/* this resets the inherited styles from the brower */
+body,p,a {
   margin: 0;
   padding: 0;
   text-decoration: none;
 }
 
+/* * BASE STYLES * */
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  background: var(--primaryBG);
+  background-size: cover;
+}
+
+
+
+
+
 
 /* ----------------Landing------------------ */
 
 .landing-parent-div {
-  /* text-align: center; */
   display: grid;
   place-content: center;
 }
@@ -51,6 +49,7 @@ body,p,a,ul,li {
 
 /* ----------------Home------------------ */
 .home-main {
+  background-color: grey;
   margin-top: 20px;
   box-shadow: 5px 5px 20px rgb(119, 117, 117);
   border-radius: 10px;
@@ -58,6 +57,7 @@ body,p,a,ul,li {
 
 .hero-pic {
   border-radius: 30px;
+  opacity: 0.7;
 }
 
 .home-right-text {
@@ -260,12 +260,12 @@ h5, p {
 
 /* * LARGE TABLET/LAPTOP * */
 
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 960px) {
 
 }
 
 /* * DESKTOP * */
 
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 1200px) {
 
 }
