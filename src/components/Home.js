@@ -9,8 +9,8 @@ function Home() {
     return(
       <MDBContainer className='container home-main'>
         <MDBRow>
-          <MDBCol className="col-sm col-lg-6">
-            {/* <Fade duration='3400'> */}
+          <MDBCol className="col-sm-6 col-md-6 col-lg-6">
+            <Fade duration='3400'>
               <div className='hero-pic-wrapper'>
                 <img 
                   className='hero-pic'
@@ -18,12 +18,12 @@ function Home() {
                   alt="hero-pic"
                 />
               </div>
-            {/* </Fade> */}
+            </Fade>
           </MDBCol>
 
-          <MDBCol className='col-sm-6 col-lg-6 home-right-text'>
+          <MDBCol className='col-sm-6 col-md-6 col-lg-6 home-right-text'>
             <div className='home-title'>Tyson Mills</div>
-            <Slide direction='right' du><h5>Full Stack Software Engineer - Based in Mississippi, USA</h5></Slide>
+            <Slide direction='right'><h5>Full Stack Software Engineer - Based in Mississippi, USA</h5></Slide>
             <hr/>
             <Slide direction='up'><p>
               From career firefighter to software developer...<br/>I bring a strong sense of professionalism, adaptability, and resourcefulness to all of my projects. 
