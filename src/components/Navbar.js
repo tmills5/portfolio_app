@@ -80,7 +80,7 @@ export default function App() {
 
   return (
     <nav>
-    <h1>dfghsdfgsdfgsdfg</h1>
+    <span><img src={logoWhite} alt='logo'height="50em"/></span>
     </nav>
     // <MDBNavbar expand='lg' light bgColor='dark'>
     //   <MDBContainer fluid>
