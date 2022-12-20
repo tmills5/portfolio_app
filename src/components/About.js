@@ -2,7 +2,7 @@ import TyCoffee from '../assets/images/TyCoffee.jpeg';
 import TyFireSelfie from '../assets/images/TyFireSelfie.JPG';
 import TyLoveUALatte from '../assets/images/TyLoveUALatte.JPG';
 import { Fade, Slide } from 'react-awesome-reveal';
-import { LoremIpsum } from "react-lorem-ipsum";
+
 
 // going outside my comfort zone is how i succeed and i love to push my own limits
 

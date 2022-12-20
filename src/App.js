@@ -17,11 +17,11 @@ function App() {
     <Navbar />
       <Routes>
         
-        <Route exact path='/' element={<Landing />} />
+        {/* <Route exact path='/' element={<Landing />} />
         <Route exact path='/home' element={<Home />} />
         <Route exact path='/projects' element={<Projects />} />
         <Route exact path='/about' element={<About />} />
-        <Route exact path='/contact' element={<ContactPage />} />
+        <Route exact path='/contact' element={<ContactPage />} /> */}
       </Routes>
 
       {/* not rendering the footer on landing page */}

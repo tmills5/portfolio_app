@@ -58,59 +58,62 @@ import logoWhite from '../assets/images/logoWhite - Edited.png';
 // export default TopNavbar;
 
 import React, { useState } from 'react';
-import {
-  MDBContainer,
-  MDBNavbar,
-  MDBNavbarBrand,
-  MDBNavbarToggler,
-  MDBIcon,
-  MDBNavbarNav,
-  MDBNavbarItem,
-  MDBNavbarLink,
-  MDBBtn,
-  MDBDropdown,
-  MDBDropdownToggle,
-  MDBDropdownMenu,
-  MDBDropdownItem,
-  MDBCollapse,
-} from 'mdb-react-ui-kit';
+// import {
+//   MDBContainer,
+//   MDBNavbar,
+//   MDBNavbarBrand,
+//   MDBNavbarToggler,
+//   MDBIcon,
+//   MDBNavbarNav,
+//   MDBNavbarItem,
+//   MDBNavbarLink,
+//   MDBBtn,
+//   MDBDropdown,
+//   MDBDropdownToggle,
+//   MDBDropdownMenu,
+//   MDBDropdownItem,
+//   MDBCollapse,
+// } from 'mdb-react-ui-kit';
 
 export default function App() {
-  const [showBasic, setShowBasic] = useState(false);
+  // const [showBasic, setShowBasic] = useState(false);
 
   return (
-    <MDBNavbar expand='lg' light bgColor='dark'>
-      <MDBContainer fluid>
-        <MDBNavbarBrand href='/home'>
-          <img className='tmd-navbar-brand-logo'src={logoWhite} alt="logo"/>
+    <nav>
+    <h1>dfghsdfgsdfgsdfg</h1>
+    </nav>
+    // <MDBNavbar expand='lg' light bgColor='dark'>
+    //   <MDBContainer fluid>
+    //     <MDBNavbarBrand href='/home'>
+    //       <img className='tmd-navbar-brand-logo'src={logoWhite} alt="logo"/>
  
-        </MDBNavbarBrand>
+    //     </MDBNavbarBrand>
 
-        <MDBNavbarToggler
-          aria-controls='navbarSupportedContent'
-          aria-expanded='false'
-          aria-label='Toggle navigation'
-          onClick={() => setShowBasic(!showBasic)}
-        >
-          <MDBIcon icon='bars' fas />
-        </MDBNavbarToggler>
+    //     <MDBNavbarToggler
+    //       aria-controls='navbarSupportedContent'
+    //       aria-expanded='false'
+    //       aria-label='Toggle navigation'
+    //       onClick={() => setShowBasic(!showBasic)}
+    //     >
+    //       <MDBIcon icon='bars' fas />
+    //     </MDBNavbarToggler>
 
-        <MDBCollapse navbar show={showBasic}>
-          <MDBNavbarNav className='ms-auto mb-2 mb-lg-0 ms-'>
-            <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='/projects'>
-                Work
-              </MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink href='/about'>About</MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink href='/contact'>Contact</MDBNavbarLink>
-            </MDBNavbarItem>
-          </MDBNavbarNav>
-        </MDBCollapse>
-      </MDBContainer>
-    </MDBNavbar>
+    //     <MDBCollapse navbar show={showBasic}>
+    //       <MDBNavbarNav className='ms-auto mb-2 mb-lg-0 ms-'>
+    //         <MDBNavbarItem>
+    //           <MDBNavbarLink active aria-current='page' href='/projects'>
+    //             Work
+    //           </MDBNavbarLink>
+    //         </MDBNavbarItem>
+    //         <MDBNavbarItem>
+    //           <MDBNavbarLink href='/about'>About</MDBNavbarLink>
+    //         </MDBNavbarItem>
+    //         <MDBNavbarItem>
+    //           <MDBNavbarLink href='/contact'>Contact</MDBNavbarLink>
+    //         </MDBNavbarItem>
+    //       </MDBNavbarNav>
+    //     </MDBCollapse>
+    //   </MDBContainer>
+    // </MDBNavbar>
   );
 }
