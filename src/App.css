@@ -3,8 +3,14 @@
   colors for the pages and font stacks, etc
 */
 :root{
-  /* --primaryBG: url("https://images.unsplash.com/photo-1508615121316-fe792af62a63?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80") no-repeat center center fixed; */
-  --secondary: green;
+  --primaryFG: #2A312A;
+  --secondaryFG: #28382b;
+  --thirdFG: #455B46;
+  --primaryOG: #F4900e;
+  --secondaryOG: #F7631c;
+  --thirdOG: #Ed5005;
+  --white: white;
+  --black: black;
   --mono: "Oxygen mono", monospace;
   --sans: Oxygen, sans-serif;
 }
@@ -27,15 +33,9 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background: var(--primaryFG);
   font-family: var(--sans);
 }
-
-
-
-
-
-
-
 
 
 /* ----------------Landing------------------ */
@@ -51,9 +51,37 @@ body {
 /* ----------------Navbar------------------ */
 
 
-.tmd-navbar-brand-logo {
-  height: 50px;
-  width: 150px;
+nav {
+  font-family: var(--mono);
+  font-size: 80%;
+  list-style-type: none;
+  padding: 1rem;
+  border: solid 1px white;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav li:first-child {
+  flex-basis: 100%;
+  text-align: center;
+}
+nav a {
+  color: var(--white);
+  text-decoration: none;
+  display: block;
+}
+
+nav a:hover {
+  color: var(--secondaryOG)
 }
 
 /* ----------------Home------------------ */
