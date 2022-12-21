@@ -87,7 +87,7 @@ export default function App() {
         <li><a href='#'>Contact</a></li>
         <li><a href='#'>LinkedIn</a></li>
         <li><a href='#'>Github</a></li>
-        <button>Resume</button>
+        <li><a href="#" className='button'>Resume</a></li>
       </ul>
     </nav>
     // <MDBNavbar expand='lg' light bgColor='dark'>
