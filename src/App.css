@@ -56,7 +56,6 @@ nav {
   font-size: 80%;
   list-style-type: none;
   padding: 1rem;
-  border: solid 1px white;
 }
 
 nav ul {
@@ -80,9 +79,7 @@ nav a {
   text-decoration: none;
   display: block;
 }
-/* nav [class*="fa-"]:hover {
-  color: var(--thirdOG)
-} */
+
 
 nav a:hover {
   color: var(--secondaryOG);
@@ -103,7 +100,7 @@ nav a:hover {
 /* * Responsive * */
 @media (min-width: 850px) {
   nav {
-    max-width: 1200px;
+    max-width: 1800px;
     margin: 0 auto;
   }
 

@@ -81,7 +81,7 @@ export default function App() {
   return (
     <nav>
       <ul>
-        <li><img src={logoWhite} alt='logo'height="50em"/></li>
+        <li><a href='/'><img src={logoWhite} alt='logo'height="50em" /></a></li>
         <li><a href='#'>Projects</a></li>
         <li><a href='#'>About</a></li>
         <li><a href='#'>Contact</a></li>
