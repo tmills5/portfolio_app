@@ -74,14 +74,14 @@ nav li:first-child {
   text-align: center;
 }
 
-nav a {
+a {
   color: var(--white);
   text-decoration: none;
   display: block;
 }
 
 
-nav a:hover {
+a:hover {
   color: var(--secondaryOG);
   text-decoration: underline;
 }
@@ -339,31 +339,17 @@ h5, p {
 
 /* ----------------FOOTER------------------- */
 
-.copyright {
-  text-align: right;
-}
-
-.social-links {
-  display: flex;
+footer {
   text-align: center;
-  margin-top:70px;
-  padding: 20px;
-  justify-content: space-evenly;
 }
 
-/* * MOBILE FIRST STYLES * */
-
-/* *SMALL TABLET* */
-
-
-/* * LARGE TABLET/LAPTOP * */
-
-@media screen and (min-width: 960px) {
-
-}
-
-/* * DESKTOP * */
-
-@media screen and (min-width: 1200px) {
-
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 1.5rem;
 }

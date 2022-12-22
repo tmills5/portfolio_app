@@ -1,5 +1,6 @@
 import React from 'react';
 import IntroSection from './IntroSection';
+import Footer from './Footer'
 // import Nav from './Nav';
 // import TyHeadshot from '../assets/images/TyHeadshotNoBg.png';
 // import {Fade, Slide} from 'react-awesome-reveal';
@@ -7,12 +8,13 @@ import IntroSection from './IntroSection';
 // import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
 
 function Home() {
-  
+
     return(
-      <IntroSection />
+      <>
+        <IntroSection />
 
-
-
+        <Footer />
+      </>
       // <MDBContainer className='container home-main'>
       //   <MDBRow>
       //     <MDBCol className="col-sm-6 col-md-6 col-lg-6">
