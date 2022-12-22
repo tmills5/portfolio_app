@@ -6,8 +6,8 @@
   --primaryFG: #2A312A;
   --secondaryFG: #28382b;
   --thirdFG: #455B46;
-  --primaryOG: #F4900e;
-  --secondaryOG: #F7631c;
+  --primaryOG: #F7631c;
+  --secondaryOG: #F4900e;
   --thirdOG: #Ed5005;
   --white: white;
   --black: black;
@@ -87,7 +87,7 @@ nav a:hover {
 }
 
 .button {
-  background-color: var(--secondaryOG);
+  background-color: var(--primaryOG);
   padding: 0.5rem;
   border-radius: 5px;
 }
@@ -100,7 +100,7 @@ nav a:hover {
 /* * Responsive * */
 @media (min-width: 850px) {
   nav {
-    max-width: 1800px;
+    max-width: 1200px;
     margin: 0 auto;
   }
 
@@ -115,10 +115,38 @@ nav a:hover {
 
 
 
-
-
 /* ----------------Home------------------ */
-.home-main {
+
+#intro {
+  padding: 4rem 1rem 10rem 1rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#intro p {
+font-size: 1rem;  
+}
+
+#intro .name {
+  font-family: var(--mono);
+}
+
+.name span {
+  font-family: var(--sans);
+  font-size: 4rem;
+  color: var(--primaryOG);
+  display: block;
+}
+
+#intro h2 {
+  font-size: 4rem;
+}
+
+
+
+
+
+/* .home-main {
   background-color: grey;
   margin-top: 20px;
   box-shadow: 5px 5px 20px rgb(119, 117, 117);
@@ -153,7 +181,7 @@ hr {
 
 h5, p {
   margin: 20px;
-}
+} */
 
 /* ----------------Work------------------ */
 
