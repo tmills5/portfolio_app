@@ -111,7 +111,12 @@ a:hover {
   }
 }
 
+/* -------------Section Divider Div-------------*/
 
+.divider {
+  height: 2px;
+  background: var(--white);
+}
 
 /* ----------------Home------------------ */
 
@@ -150,6 +155,8 @@ font-size: 1rem;
   margin: 0 auto;
   padding: 3rem 0;
 }
+
+
 
 
 

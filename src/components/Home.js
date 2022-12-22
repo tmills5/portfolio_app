@@ -13,6 +13,7 @@ function Home() {
     return(
       <>
         <IntroSection />
+        <div className='divider'></div>
         <ContactSection />
         <Footer />
       </>
