@@ -113,8 +113,6 @@ a:hover {
 
 
 
-
-
 /* ----------------Home------------------ */
 
 #intro {
@@ -134,7 +132,7 @@ font-size: 1rem;
 .name span {
   font-family: var(--sans);
   font-size: 4rem;
-  color: var(--primaryOG);
+  color: var(--thirdOG);
   display: block;
 }
 
@@ -142,7 +140,16 @@ font-size: 1rem;
   font-size: 4rem;
 }
 
+.section-2ndOG {
+  background-color: var(--thirdOG);
+}
 
+#contact {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
 
 
 
@@ -343,9 +350,13 @@ footer {
   text-align: center;
 }
 
+footer img {
+  margin-top: 1rem;
+}
+
 footer ul {
   list-style-type: none;
-  padding: 0;
+  padding: 0rem;
   margin: 2rem 0;
   display: flex;
   flex-flow: row wrap;

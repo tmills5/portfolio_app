@@ -4,7 +4,7 @@ import logoWhite from '../assets/images/logoWhite - Edited.png';
 function Footer() {
   return(
     <footer>
-      <img src={logoWhite} alt='logo'height="50rem"/>
+      <img src={logoWhite} alt='logo' height="50rem" />
       <ul>
         <li>
           <a href='https://github.com/tmills5' target="blank">
