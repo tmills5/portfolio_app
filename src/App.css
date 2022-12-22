@@ -100,6 +100,20 @@ nav a:hover {
   background-color: var(--thirdOG);
 }
 
+/* * Responsive * */
+@media (min-width: 850px) {
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  nav li:first-child {
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+  }
+}
+
 
 
 
@@ -316,9 +330,6 @@ h5, p {
 
 /* *SMALL TABLET* */
 
-@media screen and (min-width: 620px) {
-
-}
 
 /* * LARGE TABLET/LAPTOP * */
 
