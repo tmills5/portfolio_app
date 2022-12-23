@@ -2,6 +2,7 @@ import React from 'react';
 import IntroSection from './IntroSection';
 import Footer from './Footer'
 import ContactSection from './ContactSection';
+import ProjectsSection from './ProjectsSection';
 // import Nav from './Nav';
 // import TyHeadshot from '../assets/images/TyHeadshotNoBg.png';
 // import {Fade, Slide} from 'react-awesome-reveal';
@@ -14,7 +15,10 @@ function Home() {
       <>
         <IntroSection />
         <div className='divider'></div>
+        <ProjectsSection />
         <ContactSection />
+        <div className='divider'></div>
+
         <Footer />
       </>
       // <MDBContainer className='container home-main'>

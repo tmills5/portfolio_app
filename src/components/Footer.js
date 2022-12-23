@@ -4,7 +4,7 @@ import logoWhite from '../assets/images/logoWhite - Edited.png';
 function Footer() {
   return(
     <footer>
-      <img src={logoWhite} alt='logo' height="50rem" />
+      <a href='/home'><img src={logoWhite} alt='logo' className='logo' /></a>
       <ul>
         <li>
           <a href='https://github.com/tmills5' target="blank">
@@ -17,7 +17,7 @@ function Footer() {
           </a></li>
         <li>
           <a href='https://www.twitter.com/tysonmillsdev' target="blank">
-          <i class="fa-brands fa-twitter fa-lg"></i>
+          <i className="fa-brands fa-twitter fa-lg"></i>
           </a>
         </li>
       </ul>
