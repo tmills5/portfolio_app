@@ -5,7 +5,7 @@ import Landing from './components/Landing';
 import Nav from './components/Nav';
 import Home from './components/Home';
 // import Projects from './components/Projects';
-// import About from './components/About';
+import About from './components/About';
 // import ContactPage from './components/ContactPage';
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <Route exact path='/' element={<Landing />} />
         <Route exact path='/home' element={<Home />} />
         {/* <Route exact path='/projects' element={<Projects />} /> */}
-        {/* <Route exact path='/about' element={<About />} /> */}
+        <Route exact path='/about' element={<About />} />
         {/* <Route exact path='/contact' element={<ContactPage />} /> */}
       </Routes>
 

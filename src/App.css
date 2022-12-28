@@ -149,29 +149,26 @@ font-size: 1rem;
 #intro h2 {
   font-size: 4rem;
 }
-/* contact section home */
-.section-2ndOrange {
-  background-color: var(--thirdOG);
-}
+
 /* projects section home*/
 .section-2ndGreen {
   background-color: var(--secondaryFG);
 }
 
-
-
-
-
+/* contact section home */
+.section-2ndOrange {
+  background-color: var(--thirdOG);
+}
 
 
 
 /* ----------------Projects------------------ */
 
-#projects {
+#projects, #about {
   padding: 4rem 1rem;
 }
 
-#projects h2 {
+#projects h2, #about h2 {
   font-size: 2.5rem;
   margin-bottom: calc(2.5rem * 1.5);
 }
@@ -205,7 +202,7 @@ font-size: 1rem;
   font-size: 1rem;
 }
 
-#projects img {
+#projects img, #about img {
   padding: 2rem 0 4rem 0;
   border-left: 1px solid var(--secondaryOG);
   border-top: 1px solid var(--secondaryOG);
@@ -223,12 +220,12 @@ font-size: 1rem;
     gap: 1rem;
   }
 
-  #projects {
+  #projects, #about {
     max-width: 1200px;
     margin: 0 auto;
   }
 
-  #projects img {
+  #projects img, #about img {
     grid-column: 1/6;
     grid-row: 1/2;
     margin: 5px;
@@ -244,7 +241,8 @@ font-size: 1rem;
     margin: 5px;
   }
 
-  #projects .reverse .project-text {
+  #projects .reverse .project-text,
+  #about .reverse .project-text {
     grid-column: 1/7;
     order: 2;
     text-align: left;
