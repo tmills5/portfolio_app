@@ -1,6 +1,11 @@
 import MBHScreenShot from '../assets/images/MBHScreenShot.png';
 import ParkItScreenShot from '../assets/images/ParkItScreenShot.png';
 
+// ! Need to make own page and 
+// ! fix routing in nav. Currently,
+// ! jumps to section ID and 
+// ! no way to route back when on 
+// ! different page
 
 function ProjectsSection () {
   return(
