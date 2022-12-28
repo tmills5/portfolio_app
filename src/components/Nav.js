@@ -18,8 +18,8 @@ function Nav() {
           </a>
         </li>
         <li>
-          <a href='https://github.com/tmills5'>
-            <i className="fa-brands fa-square-github fa-lg" target="blank"></i>
+          <a href='https://github.com/tmills5' target="blank">
+            <i className="fa-brands fa-square-github fa-lg"></i>
           </a>
         </li>
         <li><a href="/" className='button'>Resume</a></li>
