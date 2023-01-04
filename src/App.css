@@ -163,6 +163,9 @@ font-size: 1rem;
 
 
 /* ----------------Projects------------------ */
+article {
+  padding: 10px;
+}
 
 #projects, #about {
   padding: 4rem 1rem;
@@ -170,7 +173,7 @@ font-size: 1rem;
 
 #projects h2, #about h2 {
   font-size: 2.5rem;
-  margin-bottom: calc(2.5rem * 1.5);
+  margin-bottom: calc(2rem * 1.5);
 }
 
 #projects h3 {

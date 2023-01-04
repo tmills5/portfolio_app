@@ -16,6 +16,7 @@ function Home() {
         <IntroSection />
         <div className='divider'></div>
         <ProjectsSection />
+        <div className='divider'></div>
         <ContactSection />
         <div className='divider'></div>
 

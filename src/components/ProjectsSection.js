@@ -7,6 +7,8 @@ import ParkItScreenShot from '../assets/images/ParkItScreenShot.png';
 // ! no way to route back when on 
 // ! different page
 
+//! add video demo link or deploy and include link
+
 function ProjectsSection () {
   return(
     <div className='section-2ndGreen'>
