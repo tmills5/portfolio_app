@@ -251,7 +251,8 @@ article {
     text-align: left;
   }
 
-  #projects .reverse img {
+  #projects .reverse img,
+  #about .reverse img {
     grid-column: 6/11;
     grid-row: 1/2;
   }

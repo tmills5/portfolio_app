@@ -18,7 +18,7 @@ function About() {
             <p className="blackbox">Boijs  kfhjswlsdhjf skdiu osi idhjfi osidfh losdi osdifhj osdi odsifj lidsit ysklij ldsoh . sli hfi kosdiu .s ksikfjed kj d./ djkf jskdj ndiu nfks jndfrgkihj kjdekuhf </p>
           </div>
           <img 
-            src={TyFireSelfie}
+            src={headshot}
             alt='Tyson Fire Selfie'
             className='project-img'
             // height='500px'
