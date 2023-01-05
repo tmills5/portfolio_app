@@ -3,12 +3,11 @@
   colors for the pages and font stacks, etc
 */
 :root{
-  --primaryFG: #2A312A;
-  --secondaryFG: #28382b;
-  --thirdFG: #455B46;
-  --primaryOG: #F7631c;
-  --secondaryOG: #F4900e;
-  --thirdOG: #Ed5005;
+  --primary: #fcf5ef;
+  --secondary: #0077ff;
+  --accent1: #00c3ff;
+  --accent2: #fea735;
+  --accent3: #fe7235;
   --white: white;
   --black: black;
   --mono: "Oxygen mono", monospace;
@@ -33,7 +32,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: var(--primaryFG);
+  background: var(--primary);
   font-family: var(--sans);
   color: var(--white)
 }
@@ -83,7 +82,7 @@ a {
 
 
 a:hover {
-  color: var(--secondaryOG);
+  color: var(--secondary);
   text-decoration: underline;
 }
 
@@ -92,14 +91,14 @@ a:hover {
 }
 
 .button {
-  background-color: var(--primaryOG);
+  background-color: var(--accent1);
   padding: 0.5rem;
   border-radius: 5px;
 }
 
 .button:hover {
   color: var(--white);
-  background-color: var(--thirdOG);
+  background-color: var(--secondary);
 }
 
 /* * Responsive * */
@@ -120,7 +119,7 @@ a:hover {
 
 .divider {
   height: 4px;
-  background: var(--white);
+  background: var(--accent3);
 }
 
 /* ----------------Home------------------ */
@@ -142,7 +141,7 @@ font-size: 1rem;
 .name span {
   font-family: var(--sans);
   font-size: 4rem;
-  color: var(--thirdOG);
+  color: var(--accent2);
   display: block;
 }
 
@@ -152,12 +151,12 @@ font-size: 1rem;
 
 /* projects section home*/
 .section-2ndGreen {
-  background-color: var(--secondaryFG);
+  background-color: var(--secondary);
 }
 
 /* contact section home */
 .section-2ndOrange {
-  background-color: var(--thirdOG);
+  background-color: var(--accent2);
 }
 
 
@@ -177,7 +176,7 @@ article {
 }
 
 #projects h3 {
-  color: var(--primaryOG);
+  color: var(--primary);
 }
 
 #projects h4 {
@@ -207,8 +206,8 @@ article {
 
 #projects img, #about img {
   padding: 2rem 0 4rem 0;
-  border-left: 1px solid var(--secondaryOG);
-  border-top: 1px solid var(--secondaryOG);
+  border-left: 1px solid var(--accent3);
+  border-top: 1px solid var(--accent3);
   border-radius: 25px;
   padding: 1rem;
   width: 100%;
