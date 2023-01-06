@@ -13,8 +13,8 @@
   /* need to change to montserrat for text. Same as logo small text
     argent thin is the TM in tmillsdev
   */
-  --mono: "Oxygen mono", monospace;
-  --sans: Oxygen, sans-serif;
+  /* --mono: "Oxygen mono", monospace; */
+  --sans: "montserrat", sans-serif;
 }
 
 /* border box model css-tricks.com/box-sizing/ 
@@ -55,7 +55,7 @@ body {
 /* ----------------Navbar------------------ */
 
 nav {
-  font-family: var(--mono);
+  font-family: var(--sans);
   font-size: 80%;
   list-style-type: none;
   padding: 1rem;
@@ -90,18 +90,19 @@ a:hover {
 }
 
 .logo {
-  height: 60px;
+  height: 70px;
+
 }
 
 .button {
-  background-color: var(--accent1);
+  background-color: var(--accent3);
   padding: 0.5rem;
   border-radius: 5px;
 }
 
 .button:hover {
   color: var(--white);
-  background-color: var(--secondary);
+  background-color: var(--accent2);
 }
 
 /* * Responsive * */
@@ -120,10 +121,10 @@ a:hover {
 
 /* -------------Section Divider Div-------------*/
 
-.divider {
+/* .divider {
   height: 4px;
   background: var(--accent3);
-}
+} */
 
 /* ----------------Home------------------ */
 
@@ -149,7 +150,8 @@ font-size: 1rem;
 }
 
 #intro h2 {
-  font-size: 4rem;
+  font-size: 3rem;
+  font-family: var(--mono);
 }
 
 /* projects section home*/
@@ -176,6 +178,7 @@ article {
 #projects h2, #about h2 {
   font-size: 2.5rem;
   margin-bottom: calc(2rem * 1.5);
+  color: var(--primary);
 }
 
 #projects h3 {
@@ -186,10 +189,11 @@ article {
   font-size: 1rem;
   font-family: var(--mono);
   margin: 0;
+  color: var(--primary)
 }
 
 .blackbox {
-  background-color: var(--black);
+  background-color: var(--primary);
   padding: 1rem;
   border-radius: 10px;
   font-size: 1rem;
@@ -210,8 +214,8 @@ article {
 
 #projects img, #about img {
   padding: 2rem 0 4rem 0;
-  border-left: 1px solid var(--accent3);
-  border-top: 1px solid var(--accent3);
+  border-left: 1px solid var(--primary);
+  border-top: 1px solid var(--primary);
   border-radius: 25px;
   padding: 1rem;
   width: 100%;
@@ -246,6 +250,7 @@ article {
   #projects ul {
     justify-content: flex-end;
     margin: 5px;
+    color: var(--accent3)
   }
 
   #projects .reverse .project-text,
