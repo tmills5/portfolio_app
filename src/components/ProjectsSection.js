@@ -20,7 +20,7 @@ function ProjectsSection () {
           <div className='project-text'>
             <h4>Latest Project</h4>
             <h3>Mississippi BrewHouse</h3>
-            <p className='blackbox'>
+            <p className='textbox'>
               The Mississippi BrewHouse is a Single Page Application that allows users to login and explore the local breweries in Mississippi. The user has the ability to leave comments on visited   breweries as well as track those comments in their user profile.
             </p>
             <h4>Technologies Used:</h4>
@@ -41,7 +41,7 @@ function ProjectsSection () {
           <div className='project-text'>
             <h4>Outdoor Fun!</h4>
             <h3>ParkIt</h3>
-            <p className='blackbox'>
+            <p className='textbox'>
               ParkIt is an application designed for the outdoor enthusiast in mind. The user has the ability to log in and search for National Parks to gather requisite information. The   "Admin" has full CRUD functionality.
             </p>
             <h4>Technologies Used:</h4>

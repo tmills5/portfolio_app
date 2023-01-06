@@ -169,7 +169,7 @@ article {
   padding: 4rem 1rem;
 }
 
-#projects h2, #about h2 {
+#projects h2 {
   font-size: 2.5rem;
   margin-bottom: calc(2rem * 1.5);
   color: var(--primary);
@@ -186,13 +186,17 @@ article {
   color: var(--primary)
 }
 
-.blackbox {
+.textbox {
   background-color: var(--primary);
   padding: 1rem;
   border-radius: 10px;
   font-size: 1rem;
   line-height: 1.5;
   text-align: left;
+}
+#about .textbox {
+  border: solid;
+  border-color: var(--secondary);
 }
 
 #projects ul {
@@ -241,6 +245,7 @@ article {
     order: 2;
     text-align: right;
   }
+
   #projects ul {
     justify-content: flex-end;
     margin: 5px;

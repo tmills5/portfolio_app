@@ -17,7 +17,7 @@ function About() {
         <article>
           <div className='about-text'>
             <h3>The Early Years</h3>
-            <div className="blackbox">
+            <div className="textbox">
               <p>
                 I am a highly motivated and driven individual with a  firefighting and software engineering background. In my career   as a firefighter, I gained valuable experience working with a   wide range of people from diverse backgrounds, and I am   exceptionally adaptable in any situation.
               </p>
@@ -40,7 +40,7 @@ function About() {
         <article className='reverse'>
           <div className='project-text'>
             <h3>New Passion</h3>
-            <div className="blackbox">
+            <div className="textbox">
          
               <p>
                 I transitioned into software engineering and attended the   award-winning Flatiron School to further my education and   skills. My degree in Business from the University of Georgia allows me to see the strategic vision while maintaining focus in the code.
