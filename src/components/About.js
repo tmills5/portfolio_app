@@ -2,6 +2,8 @@
 import headshot from '../assets/images/TyHeadshotNoBg.png';
 import TyFireSelfie from '../assets/images/TyFireSelfie.JPG';
 // import { Fade, Slide } from 'react-awesome-reveal';
+import ContactSection from './ContactSection';
+import Footer from './Footer';
 
 
 // ! Need new images for this section
@@ -63,6 +65,8 @@ function About() {
           />
         </article>
       </section>
+      <ContactSection />
+      <Footer />
     </div>
 
 
