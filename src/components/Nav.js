@@ -2,7 +2,8 @@ import React from 'react';
 import logoWhite from '../assets/images/logoWhite - Edited.png';
 
 // !ADD RESUME LINK TO HREF 
-// !research uploading a file to the website
+// !research uploading a resume file to the website
+
 function Nav() {
 
   return (
