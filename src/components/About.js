@@ -4,7 +4,9 @@ import TyFireSelfie from '../assets/images/TyFireSelfie.JPG';
 // import { Fade, Slide } from 'react-awesome-reveal';
 
 
-// going outside my comfort zone is how i succeed and i love to push my own limits
+// ! Need new images for this section
+//! rephrase the about sections. rewrite less robotic
+//!pull from cover letter if need be
 
 function About() {
   
@@ -13,24 +15,45 @@ function About() {
       <section id="about">
         <h2>About Me...</h2>
         <article>
-          <div className='project-text'>
-            <h3>Early Years</h3>
-            <p className="blackbox">Boijs  kfhjswlsdhjf skdiu osi idhjfi osidfh losdi osdifhj osdi odsifj lidsit ysklij ldsoh . sli hfi kosdiu .s ksikfjed kj d./ djkf jskdj ndiu nfks jndfrgkihj kjdekuhf </p>
+          <div className='about-text'>
+            <h3>The Early Years</h3>
+            <div className="blackbox">
+              <p>
+                I am a highly motivated and driven individual with a  firefighting and software engineering background. In my career   as a firefighter, I gained valuable experience working with a   wide range of people from different backgrounds, and I am   highly adaptable in any situation.
+              </p>
+              <p>
+                I also demonstrated leadership ability as a sergeant, where I   led crews in various situations and worked well under pressure  to meet deadlines. I have excellent verbal and written   communication skills and am known for my positive attitude and  for being easy to work with.
+              </p>
+              <p>
+                As a firefighter, I also gained experience using technology to  write reports and fix problems. I was frequently called upon   to think creatively and outside the box to solve complex  issues.
+              </p>
+            </div>
           </div>
           <img 
-            src={headshot}
+            src={TyFireSelfie}
             alt='Tyson Fire Selfie'
             className='project-img'
-            // height='500px'
+            max-height="70%"
           />
         </article>
         <article className='reverse'>
           <div className='project-text'>
-            <h3>Early Years</h3>
-            <p className="blackbox">Boijs  kfhjswlsdhjf skdiu osi idhjfi osidfh losdi osdifhj osdi odsifj lidsit ysklij ldsoh . sli hfi kosdiu .s ksikfjed kj d./ djkf jskdj ndiu nfks jndfrgkihj kjdekuhf </p>
+            <h3>New Passion</h3>
+            <div className="blackbox">
+         
+              <p>
+                I transitioned into software engineering and attended the   award-winning Flatiron School to further my education and   skills.
+              </p>
+              <p>
+                With a strong foundation in coding, I am excited to continue  learning and growing in this field and committed to making a   positive impact. I am known for my positive attitude and for  being easy to work with. Going outside my comfort zone and   pushing my limits is key to success.
+              </p>
+              <p>
+                I am also known for my need to think creatively and outside of  the box, and I am eager to take on new challenges and am   confident in my ability to adapt and succeed in any   environment.
+              </p>
+            </div>
           </div>
           <img 
-            src={TyFireSelfie}
+            src={headshot}
             alt='Tyson Fire Selfie'
             className='project-img'
             // height='500px'
