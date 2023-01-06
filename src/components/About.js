@@ -19,10 +19,10 @@ function About() {
             <h3>The Early Years</h3>
             <div className="blackbox">
               <p>
-                I am a highly motivated and driven individual with a  firefighting and software engineering background. In my career   as a firefighter, I gained valuable experience working with a   wide range of people from different backgrounds, and I am   highly adaptable in any situation.
+                I am a highly motivated and driven individual with a  firefighting and software engineering background. In my career   as a firefighter, I gained valuable experience working with a   wide range of people from diverse backgrounds, and I am   exceptionally adaptable in any situation.
               </p>
               <p>
-                I also demonstrated leadership ability as a sergeant, where I   led crews in various situations and worked well under pressure  to meet deadlines. I have excellent verbal and written   communication skills and am known for my positive attitude and  for being easy to work with.
+                I also demonstrated leadership ability as a Sergeant, where I   led crews in various situations and worked well under pressure  to meet deadlines. I have excellent verbal and written   communication skills and am known for my positive attitude and  for being easy to work with.
               </p>
               <p>
                 As a firefighter, I also gained experience using technology to  write reports and fix problems. I was frequently called upon   to think creatively and outside the box to solve complex  issues.
@@ -36,19 +36,20 @@ function About() {
             max-height="70%"
           />
         </article>
+        <div className='divider'/>
         <article className='reverse'>
           <div className='project-text'>
             <h3>New Passion</h3>
             <div className="blackbox">
          
               <p>
-                I transitioned into software engineering and attended the   award-winning Flatiron School to further my education and   skills.
+                I transitioned into software engineering and attended the   award-winning Flatiron School to further my education and   skills. I have a Degree in Business from the University of Georgia 
               </p>
               <p>
-                With a strong foundation in coding, I am excited to continue  learning and growing in this field and committed to making a   positive impact. I am known for my positive attitude and for  being easy to work with. Going outside my comfort zone and   pushing my limits is key to success.
+                With a strong foundation in coding, I am excited to continue  learning and growing in this field and committed to making a   positive impact. I am known for my positive attitude and for  being easy to work with. Going outside my comfort zone and   pushing my limits is the key to success.
               </p>
               <p>
-                I am also known for my need to think creatively and outside of  the box, and I am eager to take on new challenges and am   confident in my ability to adapt and succeed in any   environment.
+                My need to think creatively and outside of  the box makes me eager to take on new challenges. I am   confident in my ability to adapt and succeed in any   environment.
               </p>
             </div>
           </div>
