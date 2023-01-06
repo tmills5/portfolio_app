@@ -5,6 +5,8 @@ import TyFireSelfie from '../assets/images/TyFireSelfie.JPG';
 
 
 // ! Need new images for this section
+//! rephrase the about sections. rewrite less robotic
+//!pull from cover letter if need be
 
 function About() {
   
@@ -17,7 +19,7 @@ function About() {
             <h3>The Early Years</h3>
             <div className="blackbox">
               <p>
-                I am a highly motivated and driven individual with a diverse  firefighting and software engineering background. In my career   as a firefighter, I gained valuable experience working with a   wide range of people from different backgrounds, and I am   highly adaptable in any situation.
+                I am a highly motivated and driven individual with a  firefighting and software engineering background. In my career   as a firefighter, I gained valuable experience working with a   wide range of people from different backgrounds, and I am   highly adaptable in any situation.
               </p>
               <p>
                 I also demonstrated leadership ability as a sergeant, where I   led crews in various situations and worked well under pressure  to meet deadlines. I have excellent verbal and written   communication skills and am known for my positive attitude and  for being easy to work with.
@@ -38,6 +40,7 @@ function About() {
           <div className='project-text'>
             <h3>New Passion</h3>
             <div className="blackbox">
+         
               <p>
                 I transitioned into software engineering and attended the   award-winning Flatiron School to further my education and   skills.
               </p>
