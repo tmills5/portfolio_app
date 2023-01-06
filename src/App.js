@@ -10,7 +10,6 @@ import About from './components/About';
 
 function App() {
   return (
-    //?  DRY up the rendering of header and footer
     <div className="App">
       {/* not rendering the navbar on landing page */}
       {window.location.pathname !== '/' ? <Nav /> : null}
