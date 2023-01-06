@@ -43,13 +43,15 @@ function About() {
             <div className="blackbox">
          
               <p>
-                I transitioned into software engineering and attended the   award-winning Flatiron School to further my education and   skills. I have a Degree in Business from the University of Georgia 
+                I transitioned into software engineering and attended the   award-winning Flatiron School to further my education and   skills. My degree in Business from the University of Georgia allows me to see the strategic vision while maintaining focus in the code.
               </p>
               <p>
-                With a strong foundation in coding, I am excited to continue  learning and growing in this field and committed to making a   positive impact. I am known for my positive attitude and for  being easy to work with. Going outside my comfort zone and   pushing my limits is the key to success.
+                With a strong foundation in coding, I am excited to continue  learning and growing in this field and committed to making a   positive impact. I am known for my positive attitude and for  being easy to work with. Going outside my comfort zone and   pushing limits is the key to success.
               </p>
               <p>
-                My need to think creatively and outside of  the box makes me eager to take on new challenges. I am   confident in my ability to adapt and succeed in any   environment.
+                My need to think creatively and outside of  the box makes me eager to take on new challenges. 
+                
+                I possess strong collaboration and problem-solving skills, by using innovative ideas, and creativity for accomplishing robust and difficult tasks. I absolutely love to learn new things and I care about staying versed with the current technology and creating new opportunities.
               </p>
             </div>
           </div>
