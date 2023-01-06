@@ -3,13 +3,16 @@
   colors for the pages and font stacks, etc
 */
 :root{
-  --primary: #fcf5ef;
-  --secondary: #0077ff;
-  --accent1: #00c3ff;
-  --accent2: #fea735;
-  --accent3: #fe7235;
+  --primary: #022534;
+  --secondary: #e4f5ff;
+  --accent1: #96c7d5;
+  --accent2: #2d7a9c;
+  --accent3: #094f6e;
   --white: white;
   --black: black;
+  /* need to change to montserrat for text. Same as logo small text
+    argent thin is the TM in tmillsdev
+  */
   --mono: "Oxygen mono", monospace;
   --sans: Oxygen, sans-serif;
 }
