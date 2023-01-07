@@ -306,7 +306,6 @@ article {
   padding: 3rem 0;
 }
 
-/* !NEED TO MAKE RESPONSIVE-FLEX? */
 /* contact page */
 .contact-pane-left, .contact-pane-right {
   height: 100vh;
@@ -331,6 +330,14 @@ article {
 
 .form-btn {
   margin: 10px;
+}
+
+/* * Responsive * */
+
+@media (max-width: 800px) {
+  .splitscreen-container {
+    flex-direction: column;
+  }
 }
 
 /* ----------------FOOTER------------------- */
