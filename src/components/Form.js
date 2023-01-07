@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
 import { MDBTextArea, MDBInput, MDBBtn } from "mdb-react-ui-kit";
 
-
-
 const Form = () => {
 
   const [name, setName] = useState('');

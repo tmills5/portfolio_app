@@ -9,7 +9,7 @@ function Nav() {
     <nav>
       <ul>
         <li><a href='/home'><img src={logoWhite} alt='logo' className='logo' /></a></li>
-        <li><a href='#projects'>Projects</a></li>
+        <li><a href='/projects'>Projects</a></li>
         <li><a href='/about'>About</a></li>
         <li><a href='/contact'>Contact</a></li>
         <li>

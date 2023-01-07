@@ -1,5 +1,4 @@
 import SplitScreen from "../layout/SplitScreen";
-
 import Form from "./Form";
 
 
