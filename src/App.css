@@ -165,7 +165,7 @@ article {
   padding: 10px;
 }
 
-#projects, #about {
+#projects {
   padding: 4rem 1rem;
 }
 
@@ -194,10 +194,7 @@ article {
   line-height: 1.5;
   text-align: left;
 }
-#about .textbox {
-  border: solid;
-  border-color: var(--secondary);
-}
+
 
 #projects ul {
   list-style-type: none;
@@ -210,7 +207,7 @@ article {
   font-size: 1rem;
 }
 
-#projects img, #about img {
+#projects img {
   padding: 2rem 0 4rem 0;
   border-left: 1px solid var(--primary);
   border-top: 1px solid var(--primary);
@@ -306,87 +303,30 @@ article {
 
 /* ----------------About-------------------- */
 
-.about-container {
-  display: flex;
-  width: 90vw;
-  align-items: center;
-  margin: auto;
-}
-/* all items 100% width */
-.about-container > * {
-  padding: 10px;
-  flex: 1 100%;
+#about {
+  padding: 4rem 1rem;
 }
 
-.about-section-main {
-  /* width: 80vw; */
-  justify-self: center;
+#about .textbox {
+  border: solid;
+  border-color: var(--primary);
+  background-color: var(--secondary);
 }
 
-.about-section-header {
-  display: flex;
-  text-align: left;
+.about-p {
+  color: var(--primary)
 }
 
-.about-section-header-title {
-  margin: 5px;
-  /* flex-shrink: 2; */
-  /* text-align: center; */
-  font-size: 20px;
-  left: 20px;
+#about img {
+  padding: 2rem 0 4rem 0;
+  border-left: 1px solid var(--primary);
+  border-top: 1px solid var(--primary);
+  border-radius: 25px;
+  padding: 1rem;
   width: 100%;
+  height: auto;
 }
 
-.about-divider {
-  height: 2px;
-  width: 100%;
-  background-color: white;
-}
-
-.about-section-main {
-  justify-content: space-around;
-}
-
-.about-section-inner-top {
-  display: flex;
-  /* flex-shrink: 4; */
-  height: 200px;
-  margin: 5px;
-  padding: 5px;
-  justify-content: space-around;
-}
-
-.inner-top-title {
-  flex: 1;
-  display: inline;
-  text-align: left;
-  padding: 0;
-}
-
-.inner-top-subtitle {
-  flex: 1;
-  display: inline;
-  text-align: left;
-  padding: 5px;
-}
-
-
-
-
-
-
-.about-section-inner-middle {
-  /* border: solid; */
-  height: 200px;
-  margin: 5px;
-  background-color: white;
-}
-
-.about-section-inner-bottom {
-  /* border: solid; */
-  height: 200px;
-  margin: 5px;
-}
 
 
 /* ----------------Contact------------------ */
