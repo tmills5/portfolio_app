@@ -6,7 +6,6 @@ import Nav from './components/Nav';
 import Home from './components/Home';
 import ProjectsPage from './components/ProjectsPage';
 import About from './components/About';
-import Footer from './components/Footer';
 import ContactPage from './components/ContactPage';
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
     <div className="App">
       {/* not rendering the navbar on landing page */}
       {window.location.pathname !== '/' ? <Nav /> : null}
-      {/* {window.location.pathname !== '/' ? <Footer /> : null} */}
       <Routes>
         <Route exact path='/' element={<Landing />} />
         <Route exact path='/home' element={<Home />} />

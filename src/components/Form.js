@@ -39,14 +39,18 @@ const Form = () => {
       <MDBInput 
         className="form-input"
         contrast
-        label='Email'
+        id='typeEmail'
+        type='email'
+        // label='Email input'
         placeholder="Email" 
         value={email} 
         onChange={e => setEmail(e.target.value)} 
       />
+      {/* <MDBInput label='Email input' id='typeEmail' type='email' /> */}
       <MDBTextArea 
         className="form-input"
         contrast
+        id='textAreaExample'
         label='Message' 
         rows={4}
         placeholder="Message" 

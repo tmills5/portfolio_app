@@ -1,7 +1,6 @@
 import SplitScreen from "../layout/SplitScreen";
 import Form from "./Form";
 
-
 const ContactPage = () => {
 
   return(

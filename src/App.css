@@ -407,7 +407,6 @@ article {
   justify-content: center;
 }
 
-
 .contact-pane-right {
   background-color: var(--accent2);
 }
@@ -423,7 +422,7 @@ article {
 }
 
 .form-btn {
-  margin: 5px;
+  margin: 10px;
 }
 
 /* ----------------FOOTER------------------- */
