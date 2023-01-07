@@ -21,7 +21,7 @@ const Form = () => {
       <MDBInput
         className="form-input"
         contrast
-        label="Name" 
+        // label="Name" 
         type="text" 
         placeholder="Name" 
         value={name} 
@@ -30,7 +30,7 @@ const Form = () => {
       <MDBInput
         className="form-input"
         contrast
-        label="Subject"
+        // label="Subject"
         placeholder='Subject'
         type="text" 
         value={subject} 
@@ -51,7 +51,7 @@ const Form = () => {
         className="form-input"
         contrast
         id='textAreaExample'
-        label='Message' 
+        // label='Message' 
         rows={4}
         placeholder="Message" 
         value={message} 

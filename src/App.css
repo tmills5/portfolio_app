@@ -268,39 +268,6 @@ article {
 }
 
 
-
-
-
-
-/* .work-pane-left, 
-.work-pane-right,
-.work-pane-left-2 
-  {
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-.work-pane-right, 
-.work-pane-left-2 
-  {
-    background-color: black;
-  }
-
-
-  .work-pane-text-wrapper {
-    color: rgb(228, 220, 220);
-    font-size: 20px;
-    margin: 5px;
-    padding: 25px;
-  }
-
-  .work-section-split {
-    background-color: rgb(37, 35, 35);
-    height: 50px;
-  } */
-
 /* ----------------About-------------------- */
 
 #about {
@@ -339,6 +306,7 @@ article {
   padding: 3rem 0;
 }
 
+/* !NEED TO MAKE RESPONSIVE-FLEX? */
 /* contact page */
 .contact-pane-left, .contact-pane-right {
   height: 100vh;
