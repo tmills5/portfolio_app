@@ -390,6 +390,7 @@ article {
 
 
 /* ----------------Contact------------------ */
+
 /* section on home */
 #contact {
   width: 400px;
@@ -398,6 +399,7 @@ article {
   padding: 3rem 0;
 }
 
+/* contact page */
 .contact-pane-left, .contact-pane-right {
   height: 100vh;
   display: flex;
@@ -405,13 +407,14 @@ article {
   justify-content: center;
 }
 
+
 .contact-pane-right {
-  background-color: black;
+  background-color: var(--accent2);
 }
 
 .contact-pane-left-text {
   font-size: 80px;
-  color: white;
+  color: var(--secondary);
 }
 
 .form-input {

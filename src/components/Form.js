@@ -23,7 +23,7 @@ const Form = () => {
         contrast
         label="Name" 
         type="text" 
-        placeholder="What's your name?" 
+        placeholder="Name" 
         value={name} 
         onChange={e => setName(e.target.value)} 
       />
@@ -31,7 +31,7 @@ const Form = () => {
         className="form-input"
         contrast
         label="Subject"
-        placeholder='Topic'
+        placeholder='Subject'
         type="text" 
         value={subject} 
         onChange={e => setSubject(e.target.value)} 
@@ -40,7 +40,7 @@ const Form = () => {
         className="form-input"
         contrast
         label='Email'
-        placeholder="What's your email address?" 
+        placeholder="Email" 
         value={email} 
         onChange={e => setEmail(e.target.value)} 
       />
@@ -49,7 +49,7 @@ const Form = () => {
         contrast
         label='Message' 
         rows={4}
-        placeholder="What can I help you with..." 
+        placeholder="Message" 
         value={message} 
         onChange={e => setMessage(e.target.value)} 
       />
