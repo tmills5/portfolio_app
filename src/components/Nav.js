@@ -1,4 +1,3 @@
-import React from 'react';
 import logoWhite from '../assets/images/logoWhite - Edited.png';
 
 // !ADD RESUME LINK TO HREF 
@@ -12,7 +11,7 @@ function Nav() {
         <li><a href='/home'><img src={logoWhite} alt='logo' className='logo' /></a></li>
         <li><a href='#projects'>Projects</a></li>
         <li><a href='/about'>About</a></li>
-        <li><a href='#contact'>Contact</a></li>
+        <li><a href='/contact'>Contact</a></li>
         <li>
           <a href='https://www.linkedin.com/in/tmillsdev' target="blank">
             <i className="fa-brands fa-linkedin fa-lg"></i>

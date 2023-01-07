@@ -56,7 +56,7 @@ body {
 
 nav {
   font-family: var(--sans);
-  font-size: 80%;
+  font-size: 95%;
   list-style-type: none;
   padding: 1rem;
 }
@@ -85,7 +85,7 @@ a {
 
 
 a:hover {
-  color: var(--secondary);
+  color: var(--accent1);
   text-decoration: underline;
 }
 

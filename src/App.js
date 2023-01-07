@@ -7,7 +7,7 @@ import Home from './components/Home';
 // import Projects from './components/Projects';
 import About from './components/About';
 import Footer from './components/Footer';
-// import ContactPage from './components/ContactPage';
+import ContactPage from './components/ContactPage';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <Route exact path='/home' element={<Home />} />
         {/* <Route exact path='/projects' element={<Projects />} /> */}
         <Route exact path='/about' element={<About />} />
-        {/* <Route exact path='/contact' element={<ContactPage />} /> */}
+        <Route exact path='/contact' element={<ContactPage />} />
       </Routes>
     </div>
   );
