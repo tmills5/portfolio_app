@@ -45,7 +45,7 @@ function About() {
             <div className="textbox">
          
               <p className='about-p'>
-                I transitioned into software engineering and attended the   award-winning Flatiron School to further my education and   skills. My degree in Business from the University of Georgia allows me to see the strategic vision while maintaining focus in the code.
+                I transitioned into software engineering and attended the   award-winning Flatiron School to further my education and   skills. My degree in Business from the University of Georgia allows me to see the strategic vision while maintaining focus on the code.
               </p>
               <p className='about-p'>
                 With a strong foundation in coding, I am excited to continue  learning and growing in this field and committed to making a   positive impact. Going outside my comfort zone and   pushing limits is the key to success.
@@ -68,55 +68,6 @@ function About() {
       <ContactSection />
       <Footer />
     </div>
-
-
-    // <div className='about-container'>
-
-    //   <article className='about-section-main'>
-    //     <header className='about-section-header'>
-    //       <div className='about-section-header-title'>
-    //         About
-    //       </div>
-    //     </header>
-    //     <div className='about-divider'></div>
-
-    //     <div className='about-section-inner-top'>
-    //       <div className='inner-top-title'>
-    //         <div>I've dedicated my life to helping to people. Now, let me help you with your software development needs.
-    //         </div>
-    //       </div>
-    //       <div className='inner-top-subtitle'>
-    //         <div className='inner-top-subtitle-text'>
-    //           Full Stack Developer with experience using front-end and back-end technologies such as Ruby, Rails, JavaScript, and React. Background includes 12 years as a career fire officer and medic, with strong collaboration and problem-solving skills, by using innovative ideas, and creativity for accomplishing robust and difficult tasks. Lifelong learner that is passionate about staying versed with the current technology and creating new opportunities. Effective analytical skills and attention to detail while remaining calm under pressure and meeting deadlines curated from previous roles in the medical field.
-    //         </div>
-    //       </div>
-    //     </div>
-
-
-    //     <div className='about-section-inner-middle'>MIDDLE</div>
-    //     <div className='about-section-inner-bottom'>BOTTOM</div>
-
-    //   </article>
-
-
-
-    // </div>
-    // <>
-    // <div className="d-flex p-4 justify-content-between about-container">
-    //   <Fade duration='2000'>
-    //   <img 
-    //     src={TyFireSelfie}
-    //     height={500}
-    //     alt='' />
-    //   </Fade>
-    //   <Fade duration='2000'>
-    //   <img 
-    //     src={TyLoveUALatte}
-    //     height={500}
-    //     alt=''/>
-    //   </Fade>
-    // </div>
-    // </>
   )
 }
 
