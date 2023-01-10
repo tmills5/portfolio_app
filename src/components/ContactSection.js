@@ -1,6 +1,6 @@
 function ContactSection() {
   return (
-    <div className="section-2ndOrange">
+    <div className="contact-section">
       <section id="contact">
         <h2>Contact Me!</h2>
         <p>I'm always interested in new opportunities, hearing about what you have going on, or just connecting towards a common goal.</p>

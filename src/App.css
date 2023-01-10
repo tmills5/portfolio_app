@@ -149,12 +149,12 @@ font-size: 1rem;
 }
 
 /* projects section home*/
-.section-2ndGreen {
+.projects-section {
   background-color: var(--secondary);
 }
 
 /* contact section home */
-.section-2ndOrange {
+.contact-section {
   background-color: var(--accent2);
 }
 

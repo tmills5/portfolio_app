@@ -1,11 +1,14 @@
 import MBHScreenShot from '../assets/images/MBHScreenShot.png';
 import ParkItScreenShot from '../assets/images/ParkItScreenShot.png';
+import ContactSection from './ContactSection';
+import Footer from './Footer';
 
 //! add video demo link or deploy and include link
 
 function ProjectsSection () {
   return(
-    <div className='section-2ndGreen'>
+    <>
+    <div className='projects-section'>
       <section id="projects">
         <h2>
           Projects
@@ -53,6 +56,9 @@ function ProjectsSection () {
         </article>
       </section>
     </div>
+    <ContactSection />
+    <Footer />
+    </>
   );
 };
 
