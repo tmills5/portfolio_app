@@ -1,5 +1,6 @@
 import logoWhite from '../assets/images/logoWhite - Edited.png';
-import test from '../assets/documents/AppBreweryCornellNotesTemplate.pdf';
+// import test from '../assets/documents/AppBreweryCornellNotesTemplate.pdf';
+
 // !ADD RESUME LINK TO HREF 
 // !research uploading a resume file to the website
 
@@ -22,7 +23,7 @@ function Nav() {
             <i className="fa-brands fa-square-github fa-lg"></i>
           </a>
         </li>
-        <li><a href={test} className='button'>Resume</a></li>
+        <li><a href='/resume' className='button'>Resume</a></li>
       </ul>
     </nav>
   );
