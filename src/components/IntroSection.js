@@ -5,8 +5,8 @@ function IntroSection() {
   
   return(
     <section id="intro">
-      <Fade cascade damping='1'>
-        <p className='name'>Welcome, I'm <Slide><span>Tyson.</span></Slide></p>
+      <Fade cascade damping='1' triggerOnce='true'>
+        <p className='name'>Welcome, I'm <Slide triggerOnce='true'><span>Tyson.</span></Slide></p>
         <Slide direction='up' ><h2>I'm a Web Developer.</h2></Slide>
       </Fade>
       <p>Full Stack Software Engineer - Based in Mississippi, USA</p>
