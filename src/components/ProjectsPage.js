@@ -3,7 +3,7 @@ import ParkItScreenShot from '../assets/images/ParkItScreenShot.png';
 import ContactSection from './ContactSection';
 import Footer from './Footer';
 
-//! add video demo link or deploy and include link
+//! deploy and include link
 
 function ProjectsSection () {
   return(

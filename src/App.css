@@ -351,15 +351,17 @@ article {
   height: 100%; */
 }
 
-.resume-pdf {
+/* .resume-pdf {
   align-items: center;
   justify-content: center;
+} */
+
+.react-pdf__Page__canvas {
+margin: 0 auto; /* centering the pdf  */
 }
 
-.react-pdf__Page__textContent {
-  top: 0 !important;
-  left: 0 !important;
-  transform: none !important;
+.react-pdf__textLayer {
+  display: none;
 }
 
 
