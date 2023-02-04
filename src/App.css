@@ -207,6 +207,10 @@ article {
   font-size: 1rem;
 }
 
+.project-links {
+  color: var(--primary);
+}
+
 #projects img {
   padding: 2rem 0 4rem 0;
   border-left: 1px solid var(--primary);
