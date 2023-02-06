@@ -10,6 +10,7 @@ function Home() {
     return(
       <>
         <IntroSection />
+        <hr />
         <About />
         <ProjectsSection />
         <ContactSection />

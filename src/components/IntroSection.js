@@ -1,4 +1,5 @@
 import React from 'react';
+import headshot from '../assets/images/TyHeadshotNoBg.png';
 import { Slide, Fade } from 'react-awesome-reveal';
 
 function IntroSection() {
@@ -13,6 +14,7 @@ function IntroSection() {
       <p>
         From career firefighter to software developer - I bring a strong sense of professionalism, adaptability, and resourcefulness to all of my work.
       </p>
+      <img src={headshot} alt="Tyson's face" />
     </section>
   )
 };

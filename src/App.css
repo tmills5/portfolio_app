@@ -148,6 +148,29 @@ font-size: 1rem;
   font-family: var(--mono);
 }
 
+/* #intro img {
+  display: inline-block;
+} */
+
+@media (min-width: 550px) {
+  #intro {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  #intro .name {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 5px;
+  }
+  #intro h2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 5px;
+  }
+}
+
 /* projects section home*/
 .projects-section {
   background-color: var(--secondary);
