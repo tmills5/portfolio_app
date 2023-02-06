@@ -50,7 +50,7 @@ const Form = () => {
       <MDBTextArea 
         className="form-input"
         contrast
-        id='textAreaExample'
+        id='textArea'
         // label='Message' 
         rows={4}
         placeholder="Message" 
