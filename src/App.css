@@ -271,6 +271,9 @@ article {
   }
 }
 
+#projects article a{
+  padding: 0.5rem;
+}
 
 /* ----------------About-------------------- */
 
@@ -287,16 +290,6 @@ article {
 #about p {
   color: var(--primary)
 }
-
-/* #about img {
-  padding: 2rem 0 4rem 0;
-  border-left: 1px solid var(--primary);
-  border-top: 1px solid var(--primary);
-  border-radius: 25px;
-  padding: 1rem;
-  width: 100%;
-  height: auto;
-} */
 
 #about .skills {
   list-style-type: none;

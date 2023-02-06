@@ -21,13 +21,14 @@ function About() {
             <h3>The Early Years</h3>
             <div className="textbox">
               <p>
-                I am a highly motivated and driven individual with a  firefighting and software engineering background. In my career   as a firefighter, I gained valuable experience working with a   wide range of people from diverse backgrounds, and I am   exceptionally adaptable in any situation.
+                I began my software engineering journey in the summer of 2020. This   launch involved dabbling in resources on the internet such as   freecodecamp.org, Codecademy.com, Udemy.com. At the time, I served  as a career firefighter/AEMT, which I’ve been doing for the past   twelve years in South Atlanta and Athens, GA. I planned to  supplement our family’s income with web development while I was  away from the station. 
               </p>
               <p>
-                I also demonstrated leadership ability as a Sergeant, where I   led crews in various situations and worked well under pressure  to meet deadlines. I have excellent verbal and written   communication skills and am known for my positive attitude and  for being easy to work with.
+                The more I learned, the more I fell in love   with it. I knew that  if I wanted to do this, I needed the structure   of some formal  schooling. I applied, was accepted, and enrolled in  the Full Stack  Software Engineering program in July 2021 at  Flatiron School. 
+                {/* I also demonstrated leadership ability as a Sergeant, where I   led crews in various situations and worked well under pressure  to meet deadlines. I have excellent verbal and written   communication skills and am known for my positive attitude and  for being easy to work with. */}
               </p>
               <p>
-                As a firefighter, I also gained experience using technology to  write reports and fix problems. I was frequently called upon   to think creatively and outside the box to solve complex  issues.
+                Holding the ranks of Sergeant and Corporal in the fire service, I have demonstrated leadership abilities with excellent verbal and written communication skills coupled with a strong work ethic. I love being around people and I'm known for my positive attitude and for being easy to work with.
               </p>
             </div>
           </div>
@@ -42,6 +43,9 @@ function About() {
                 <li>Time-management</li>
                 <li>Adaptability</li>
                 <li>Effective Collaboration</li>
+                <li>Strategic Thinking</li>
+                <li>Teamwork</li>
+                <li>Empathy</li>
               </ul>
 
           </div>
@@ -63,15 +67,13 @@ function About() {
             <div className="textbox">
          
               <p>
-                I transitioned into software engineering and attended the   award-winning Flatiron School to further my education and   skills. My degree in Business from the University of Georgia allows me to see the strategic vision while maintaining focus on the code.
+                I transitioned into software engineering and attended the   award-winning Flatiron School to further my education and   skills. My degree in Business from the University of Georgia allows me to see the strategic vision of a project while maintaining focus on the code.
               </p>
               <p>
-                With a strong foundation in coding, I am excited to continue  learning and growing in this field and committed to making a   positive impact. Going outside my comfort zone and   pushing limits is the key to success.
+                With a strong foundation in coding, I am excited to continue  learning and growing in this field and committed to making a   positive impact. I feel that going outside my comfort zone and   pushing limits is the key to success.
               </p>
               <p>
-                My need to think creatively drives my ambition to take on new challenges. 
-                
-                I possess strong collaboration and problem-solving skills, by using innovative ideas, and thinking imaginatively for accomplishing robust and difficult tasks. I absolutely love to learn new things and I care about staying versed with the current technology and creating new opportunities.
+                My need to think creatively drives my ambition to take on new challenges. I absolutely love to learn new things and I care about staying versed with the current technology and creating new opportunities.
               </p>
             </div>
           </div>
