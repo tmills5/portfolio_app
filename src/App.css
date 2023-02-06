@@ -301,12 +301,11 @@ article {
 #about .skills {
   list-style-type: none;
   grid-column: 1/5;
-  /* grid-row: 1/2; */
-}
+  }
 
-#about .skills ul {
+#about .skills ul, .skills-reverse ul {
   list-style-type: none;
-  padding: 0;
+  padding: 10px;
   margin: 0;
   display: flex;
   flex-flow: row wrap;
@@ -321,7 +320,7 @@ article {
   /* grid-row: 1/2; */
 }
 
-#about .skills-reverse ul {
+/* #about .skills-reverse ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -330,17 +329,13 @@ article {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-}
+} */
 
-.about-skills h2, .about-skills-reverse h2 {
+#about .skills h2, .skills-reverse h2 {
   text-align: center;
   text-decoration: underline;
 }
 
-/* .about-skills-reverse img {
-  display: block;
-  text-decoration: none;
-} */
 
 
 /* ----------------Contact------------------ */
