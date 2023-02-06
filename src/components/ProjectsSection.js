@@ -60,8 +60,8 @@ function ProjectsSection () {
         </article>
       </section>
     </div>
-    <ContactSection />
-    <Footer />
+    {/* <ContactSection /> */}
+    {/* <Footer /> */}
     </>
   );
 };
