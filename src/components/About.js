@@ -6,9 +6,6 @@ import ContactSection from './ContactSection';
 import Footer from './Footer';
 
 
-// ! Need new images for this section
-//! rephrase the about sections. rewrite less robotic
-//!pull from cover letter if need be
 
 function About() {
   
@@ -21,14 +18,10 @@ function About() {
             <h3>The Early Years</h3>
             <div className="textbox">
               <p>
-                I began my software engineering journey in the summer of 2020. This   launch involved dabbling in resources on the internet such as   freecodecamp.org, Codecademy.com, Udemy.com. At the time, I served  as a career firefighter/AEMT, which I’ve been doing for the past   twelve years in South Atlanta and Athens, GA. I planned to  supplement our family’s income with web development while I was  away from the station. 
+                I began my software engineering journey in the summer of 2020. This launch involved   dabbling in resources on the internet, such as freecodecamp.org, Codecademy.com, and  Udemy.com. At the time, I served as a career firefighter/AEMT, which I’ve been doing   for the past twelve years in South Atlanta and Athens, GA. Holding the ranks of   Sergeant and Corporal in the fire service, I have demonstrated leadership abilities,  excellent verbal and written communication skills, and a strong work ethic. I’m known  for my positive attitude and for being easy to work with, and I love being around  people.
               </p>
               <p>
-                The more I learned, the more I fell in love   with it. I knew that  if I wanted to do this, I needed the structure   of some formal  schooling. I applied, was accepted, and enrolled in  the Full Stack  Software Engineering program in July 2021 at  Flatiron School. 
-                {/* I also demonstrated leadership ability as a Sergeant, where I   led crews in various situations and worked well under pressure  to meet deadlines. I have excellent verbal and written   communication skills and am known for my positive attitude and  for being easy to work with. */}
-              </p>
-              <p>
-                Holding the ranks of Sergeant and Corporal in the fire service, I have demonstrated leadership abilities with excellent verbal and written communication skills coupled with a strong work ethic. I love being around people and I'm known for my positive attitude and for being easy to work with.
+                I planned to supplement our family’s income with web development while I was away from  the station. The more I learned, the more I fell in love with it. I knew that if I   wanted to do this, I needed the structure of formal schooling. I applied, was accepted,   and enrolled in the Full Stack Software Engineering program in July 2021 at Flatiron  School.
               </p>
             </div>
           </div>
@@ -50,8 +43,6 @@ function About() {
 
           </div>
 
-
-
           {/* <img 
             src={TyFireSelfie}
             alt='Tyson Fire Selfie'
@@ -67,13 +58,13 @@ function About() {
             <div className="textbox">
          
               <p>
-                I transitioned into software engineering and attended the   award-winning Flatiron School to further my education and   skills. My degree in Business from the University of Georgia allows me to see the strategic vision of a project while maintaining focus on the code.
+                I transitioned into software engineering after graduating from the Flatiron program in  September 2022. I also have a degree in Business from the University of Georgia, which   allows me to see the strategic vision of a project while maintaining focus on the code.
               </p>
               <p>
-                With a strong foundation in coding, I am excited to continue  learning and growing in this field and committed to making a   positive impact. I feel that going outside my comfort zone and   pushing limits is the key to success.
+                With a strong foundation in coding, I am excited to continue learning and growing in  this field and committed to making a positive impact. Going outside my comfort zone and  pushing limits is the key to success.
               </p>
               <p>
-                My need to think creatively drives my ambition to take on new challenges. I absolutely love to learn new things and I care about staying versed with the current technology and creating new opportunities.
+                My need to think creatively drives my ambition to take on new challenges. I love  learning new things and care about staying versed with current technology and creating   new opportunities.
               </p>
             </div>
           </div>

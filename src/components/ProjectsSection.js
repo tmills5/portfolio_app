@@ -7,7 +7,6 @@ import Footer from './Footer';
 
 function ProjectsSection () {
   return(
-    <>
     <div className='projects-section'>
       <section id="projects">
         <h2>
@@ -60,9 +59,6 @@ function ProjectsSection () {
         </article>
       </section>
     </div>
-    {/* <ContactSection /> */}
-    {/* <Footer /> */}
-    </>
   );
 };
 
