@@ -117,6 +117,51 @@ a:hover {
     text-align: left;
     margin-right: auto;
   }
+
+  /* ARROW */
+
+  .arrow,
+  .arrow:before {
+    position: absolute;
+    left: 30%;
+  }
+
+  .arrow {
+    width: 40px;
+    height: 40px;
+    top: 90%;
+    margin: -20px 0 0 -20px;
+    -webkit-transform: rotate(45deg);
+    border-left: none;
+    border-top: none;
+    border-right: 2px var(--white) solid;
+    border-bottom: 2px var(--white) solid;
+  }
+  
+  .arrow:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    margin: -16px 0 0 -10px;
+    border-left: none;
+    border-top: none;
+    border-right: 1px #fff solid;
+    border-bottom: 1px #fff solid;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: arrow;
+  }
+
+  @keyframes arrow {
+    0% {
+      opacity: 1
+    }
+    100% {
+      opacity: 0;
+      transform: translate(-10px, -10px)
+    }
+  }
 }
 
 
@@ -148,6 +193,7 @@ font-size: 1rem;
   font-family: var(--mono);
 }
 
+
 /* projects section home*/
 .projects-section {
   background-color: var(--secondary);
@@ -163,9 +209,10 @@ font-size: 1rem;
 /* ----------------Projects------------------ */
 article {
   padding: 10px;
+  margin:10px;
 }
 
-#projects {
+#projects, #intro {
   padding: 4rem 1rem;
 }
 
@@ -207,6 +254,10 @@ article {
   font-size: 1rem;
 }
 
+.project-links {
+  color: var(--primary);
+}
+
 #projects img {
   padding: 2rem 0 4rem 0;
   border-left: 1px solid var(--primary);
@@ -226,12 +277,27 @@ article {
     gap: 1rem;
   }
 
-  #projects, #about {
+  #projects, #about, #intro {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 10px;
   }
 
-  #projects img, #about img {
+  .intro-text {
+    grid-column: 1/7;
+    text-align: left;
+  }
+
+  #intro img {
+    grid-column: 7/11;
+    grid-row: 1/2;
+    margin: 5px;
+    height: 80%;
+    border-radius: 40%;
+  }
+
+
+  #projects img {
     grid-column: 1/6;
     grid-row: 1/2;
     margin: 5px;
@@ -267,6 +333,9 @@ article {
   }
 }
 
+#projects article a{
+  padding: 0.5rem;
+}
 
 /* ----------------About-------------------- */
 
@@ -280,18 +349,35 @@ article {
   background-color: var(--secondary);
 }
 
-.about-p {
+#about p {
   color: var(--primary)
 }
 
-#about img {
-  padding: 2rem 0 4rem 0;
-  border-left: 1px solid var(--primary);
-  border-top: 1px solid var(--primary);
-  border-radius: 25px;
-  padding: 1rem;
-  width: 100%;
-  height: auto;
+#about .skills {
+  list-style-type: none;
+  grid-column: 1/5;
+  }
+
+#about .skills ul, .skills-reverse ul {
+  list-style-type: none;
+  padding: 40px 10px 10px 10px;
+  margin: 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+#about .skills-reverse {
+  list-style-type: none;
+  grid-column: 7/11;
+  /* grid-row: 1/2; */
+}
+
+#about .skills h2, .skills-reverse h2 {
+  text-align: center;
+  text-decoration: underline;
 }
 
 
@@ -339,6 +425,13 @@ article {
     flex-direction: column;
   }
 }
+
+/* ----------------RESUME------------------- */
+/* centering the pdf  */
+.react-pdf__Page__canvas {
+  margin: 0 auto; 
+}
+
 
 /* ----------------FOOTER------------------- */
 

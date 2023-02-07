@@ -3,11 +3,10 @@ import ParkItScreenShot from '../assets/images/ParkItScreenShot.png';
 import ContactSection from './ContactSection';
 import Footer from './Footer';
 
-//! add video demo link or deploy and include link
+//! deploy and include link
 
 function ProjectsSection () {
   return(
-    <>
     <div className='projects-section'>
       <section id="projects">
         <h2>
@@ -30,6 +29,8 @@ function ProjectsSection () {
                 <li>PostgreSQL</li>
                 <li>Material-UI</li>
               </ul>
+              <a href="https://github.com/tmills5/MississippiBrewHouse" className='project-links' target='blank'>GitHub Repository</a>
+              <a href="https://www.youtube.com/watch?v=7QCDnaLYCTQ" className='project-links' target='blank'>Video Demo</a>
           </div>
           <img src={MBHScreenShot} alt='MBH homepage' className='project-img'/>
         </article>
@@ -51,14 +52,13 @@ function ProjectsSection () {
                 <li>PostgreSQL</li>
                 <li>BCrypt</li>
               </ul>
+              <a href="https://github.com/tmills5/parkIt" className='project-links' target='blank'>GitHub Repository</a>
+              <a href="https://www.youtube.com/watch?v=eBRX8kT4M68" className='project-links' target='blank'>Video Demo</a>
           </div>
           <img src={ParkItScreenShot} alt='parkIt homepage' className='project-img'/>
         </article>
       </section>
     </div>
-    <ContactSection />
-    <Footer />
-    </>
   );
 };
 

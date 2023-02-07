@@ -15,11 +15,11 @@ function Footer() {
           <a href='https://www.linkedin.com/in/tmillsdev' target="blank">
             <i className="fa-brands fa-linkedin fa-lg"></i>
           </a></li>
-        <li>
+        {/* <li>
           <a href='https://www.twitter.com/tysonmillsdev' target="blank">
           <i className="fa-brands fa-twitter fa-lg"></i>
           </a>
-        </li>
+        </li> */}
       </ul>
       <p><small>&copy; {new Date().getFullYear()} Copyright:{' '}TMillsDev</small></p>
     </footer>
