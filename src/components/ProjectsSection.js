@@ -1,7 +1,6 @@
 import MBHScreenShot from '../assets/images/MBHScreenShot.png';
 import ParkItScreenShot from '../assets/images/ParkItScreenShot.png';
-import ContactSection from './ContactSection';
-import Footer from './Footer';
+import { Zoom } from 'react-awesome-reveal';
 
 //! deploy and include link
 
@@ -12,6 +11,7 @@ function ProjectsSection () {
         <h2>
           Projects
         </h2>
+        <Zoom>
         <article>
           <div className='project-text'>
             <h4>Latest Project</h4>
@@ -34,7 +34,9 @@ function ProjectsSection () {
           </div>
           <img src={MBHScreenShot} alt='MBH homepage' className='project-img'/>
         </article>
+        </Zoom>
         <br/>
+        <Zoom>
         <article className='reverse'>
           <div className='project-text'>
             <h4>Outdoor Fun!</h4>
@@ -57,6 +59,7 @@ function ProjectsSection () {
           </div>
           <img src={ParkItScreenShot} alt='parkIt homepage' className='project-img'/>
         </article>
+        </Zoom>
       </section>
     </div>
   );
