@@ -8,7 +8,7 @@ import Home from './components/Home';
 // import ProjectsPage from './components/ProjectsPage';
 // import About from './components/About';
 import ContactPage from './components/ContactPage';
-import ResumeViewer from './components/ResumeViewer';
+// import ResumeViewer from './components/ResumeViewer';
 
 
 
@@ -23,7 +23,7 @@ function App() {
         {/* <Route exact path='/projects' element={<ProjectsPage />} /> */}
         {/* <Route exact path='/about' element={<About />} /> */}
         <Route exact path='/contact' element={<ContactPage />} />
-        <Route exact path='/resume' element={<ResumeViewer />} />
+        {/* <Route exact path='/resume' element={<ResumeViewer />} /> */}
 
       </Routes>
     </div>
