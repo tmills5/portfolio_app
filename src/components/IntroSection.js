@@ -17,10 +17,12 @@ function IntroSection() {
         <p>
           From career firefighter to software developer - I bring a strong sense of professionalism, adaptability, and resourcefulness to all of my work.
         </p>
-        <div className="arrow"></div>
+        {/* <div className="arrow"></div> */}
       </div>
       <img src={headshot} alt="Tyson's face" />
+
       </article>
+      <hr/>
     </section>
     </div>
   )

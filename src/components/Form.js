@@ -117,9 +117,9 @@ const Form = () => {
                 required 
               />
           </div>
-          <div class="submit">
+          {/* <div class="submit"> */}
             <input type="submit" value="submit" id="form_button"/>
-          </div>
+          {/* </div> */}
       </form>
     </div>
 </div>
