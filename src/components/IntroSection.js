@@ -19,7 +19,7 @@ function IntroSection() {
         </p>
         {/* <div className="arrow"></div> */}
       </div>
-      <img src={headshot} alt="Tyson's face" />
+      <img src={headshot} alt="Tyson's face"/>
 
       </article>
       <hr/>

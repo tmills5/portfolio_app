@@ -60,13 +60,6 @@ body {
   height: auto;
 }
 
-/* * Responsive * */
-
-/* @media (max-width: 550px) {
-  .logo-div {
-    width: 75%;
-  }
-}*/
 /* ----------------Navbar------------------ */
 
 nav {
@@ -206,6 +199,11 @@ a:hover {
 #intro h2 {
   font-size: 3rem;
   font-family: var(--mono);
+}
+
+#intro article img {
+  width: 100%;
+  height: auto;
 }
 
 
