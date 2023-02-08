@@ -48,12 +48,25 @@ body {
 .landing-parent-div {
   display: grid;
   place-content: center;
+  width: auto;
 }
 
 .logo-div {
-  margin: auto;
+  margin: 0 auto;
 }
 
+.landing-logo {
+  width: 100%;
+  height: auto;
+}
+
+/* * Responsive * */
+
+/* @media (max-width: 550px) {
+  .logo-div {
+    width: 75%;
+  }
+}*/
 /* ----------------Navbar------------------ */
 
 nav {
@@ -118,10 +131,6 @@ a:hover {
     flex-basis: auto;
     text-align: left;
     margin-right: auto;
-  }
-
-  .logo-div {
-    margin: 0;
   }
 
   /* ARROW */
