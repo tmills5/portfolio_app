@@ -18,6 +18,18 @@ const Form = () => {
 
   return(
     <form id="contact-form">
+
+      <MDBTextArea 
+        className="form-input"
+        contrast
+        id='textArea'
+        // label='Message' 
+        rows={15}
+        placeholder="Message" 
+        value={message} 
+        onChange={e => setMessage(e.target.value)} 
+      />
+
       <MDBInput
         className="form-input"
         contrast
@@ -47,17 +59,8 @@ const Form = () => {
         onChange={e => setEmail(e.target.value)} 
       />
       {/* <MDBInput label='Email input' id='typeEmail' type='email' /> */}
-      <MDBTextArea 
-        className="form-input"
-        contrast
-        id='textArea'
-        // label='Message' 
-        rows={4}
-        placeholder="Message" 
-        value={message} 
-        onChange={e => setMessage(e.target.value)} 
-      />
-      <MDBBtn color='light' rippleColor='light' className="form-btn">Submit</MDBBtn>
+
+      <MDBBtn color='light' rippleColor='light' className="form-btn">Get it Touch</MDBBtn>
       <MDBBtn color='danger' outline rippleColor='light' className="form-btn">Reset</MDBBtn>
     </form>
   );
