@@ -11,7 +11,7 @@ function ProjectsSection () {
         <h2>
           Projects
         </h2>
-        <Zoom>
+        <Zoom triggerOnce='true'>
         <article>
           <div className='project-text'>
             <h4>Latest Project</h4>
@@ -36,7 +36,7 @@ function ProjectsSection () {
         </article>
         </Zoom>
         <br/>
-        <Zoom>
+        <Zoom triggerOnce='true'>
         <article className='reverse'>
           <div className='project-text'>
             <h4>Outdoor Fun!</h4>

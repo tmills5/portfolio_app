@@ -12,7 +12,7 @@ function About() {
         <article>
           <div className='about-text'>
             <h3>The Early Years</h3>
-            <Fade damping='1'>
+            <Fade damping='1'  triggerOnce='true'>
             <div className="textbox">
               <p>
                 I began my software engineering journey in the summer of 2020. This launch involved   dabbling in resources on the internet, such as freecodecamp.org, Codecademy.com, and  Udemy.com. At the time, I served as a career firefighter/AEMT, which I’ve been doing   for the past twelve years in South Atlanta and Athens, GA. Holding the ranks of   Sergeant and Corporal in the fire service, I have demonstrated leadership abilities,  excellent verbal and written communication skills, and a strong work ethic. I’m known  for my positive attitude and for being easy to work with, and I love being around  people.
@@ -24,7 +24,7 @@ function About() {
             </Fade>
           </div>
           <div className='skills'>
-            <Slide>
+            <Slide triggerOnce='true'>
             <h2>Skills</h2>
               <ul>
                 <li>Communication</li>
@@ -46,7 +46,7 @@ function About() {
         <article className='reverse'>       
           <div className='project-text'>
             <h3>New Passion</h3>
-            <Fade>
+            <Fade triggerOnce='true'>
             <div className="textbox">
               <p>
                 I transitioned into software engineering after graduating from the Flatiron program in  September 2022. I also have a degree in Business from the University of Georgia, which   allows me to see the strategic vision of a project while maintaining focus on the code.
@@ -61,7 +61,7 @@ function About() {
             </Fade>
           </div>
           <div className='skills-reverse'>
-            <Slide direction='right'>
+            <Slide direction='right' triggerOnce='true'>
             <h2>Skills</h2>
               <ul>
                 <li><img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt='html icon' className='skills-icon'/></li>
