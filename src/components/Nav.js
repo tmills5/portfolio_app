@@ -10,8 +10,8 @@ function Nav() {
     <nav>
       <ul>
         <li><a href='/home'><img src={logoWhite} alt='logo' className='logo' /></a></li>
-        <li><a href='/home/#projects'>Projects</a></li>
-        <li><a href='/home/#about'>About</a></li>
+        <li><a href='/#projects'>Projects</a></li>
+        <li><a href='/#about'>About</a></li>
         <li><a href='/contact'>Contact</a></li>
         <li>
           <a href='https://www.linkedin.com/in/tmillsdev' target="blank">
