@@ -101,7 +101,6 @@ const Form = () => {
                 id="url_input" 
                 onChange={e => setUrl(e.target.value)}
                 value={url}
-                required
               />
           </div>
           <div class="message">
