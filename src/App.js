@@ -6,7 +6,7 @@ import Landing from './components/Landing';
 import Nav from './components/Nav';
 import Home from './components/Home';
 // import ProjectsPage from './components/ProjectsPage';
-import About from './components/About';
+// import About from './components/About';
 import ContactPage from './components/ContactPage';
 import ResumeViewer from './components/ResumeViewer';
 
