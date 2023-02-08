@@ -120,6 +120,10 @@ a:hover {
     margin-right: auto;
   }
 
+  .logo-div {
+    margin: 0;
+  }
+
   /* ARROW */
 
   .arrow,
