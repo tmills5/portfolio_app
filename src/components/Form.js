@@ -25,10 +25,18 @@ const Form = () => {
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
       .then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
+        alert("Message Sent, I'll get back to you soon!")
       }, function(error) {
         console.log('FAILED...', error);
+        alert("Message failed to send.")
       });
-      e.target.reset();
+      setName('');
+      setEmail('');
+      setCompany('');
+      setPhone('');
+      setUrl('');
+      setMessage('');
+      
     }
 
 
