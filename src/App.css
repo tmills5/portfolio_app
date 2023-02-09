@@ -265,10 +265,12 @@ article {
   justify-content: flex-start;
   gap: 1rem;
   font-size: 1rem;
+  color: var(--primary);
 }
 
 .project-links {
-  color: var(--primary);
+  color: var(--black);
+  text-decoration: underline;
 }
 
 #projects img {
@@ -320,7 +322,7 @@ article {
     margin: 5px;
   }
   .project-text, .about-text {
-    grid-column: 5/11;
+    grid-column: 6/11;
     grid-row: 1/2;
     order: 2;
     text-align: right;
@@ -329,12 +331,11 @@ article {
   #projects ul {
     justify-content: flex-end;
     margin: 5px;
-    color: var(--accent3)
   }
 
   #projects .reverse .project-text,
   #about .reverse .project-text {
-    grid-column: 1/7;
+    grid-column: 1/6;
     order: 2;
     text-align: left;
   }
