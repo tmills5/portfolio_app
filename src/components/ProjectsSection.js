@@ -64,6 +64,7 @@ function ProjectsSection () {
           <img src={ParkItScreenShot} alt='parkIt homepage' className='project-img'/>
         </article>
         </Zoom>
+        <br/>
         {/* The Fire-Sphere */}
         <Zoom triggerOnce='true'>
         <article>

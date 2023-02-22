@@ -17,7 +17,8 @@ function IntroSection() {
         <p>
           From career firefighter to software developer - I bring a strong sense of professionalism, adaptability, and resourcefulness to all of my work.
         </p>
-        {/* <div className="arrow"></div> */}
+        <br/>
+        <p style={{"textDecoration": "underline"}}>Building efficient apps to make your life easier</p>
       </div>
       <img src={headshot} alt="Tyson's face"/>
 

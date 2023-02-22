@@ -10,9 +10,8 @@ function Home() {
     return(
       <>
         <IntroSection />
-        {/* <hr /> */}
-        <About />
         <ProjectsSection />
+        <About />
         <ContactSection />
         <Footer />
       </>
